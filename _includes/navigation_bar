@@ -8,27 +8,6 @@
 {% endif %}
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll confs">
-            <ul>
-            {% assign pagelink = page.permalink | split:'/' %}
-            {% assign pagelinkfirst = pagelink.first | append:'/' %}
-            {% assign pageurl = pagelink | shift | array_to_sentence_string:'/' %}
-
-            {% assign links = navigation | where: "side","lleft" %}
-            {% for link in links %}
-                {% assign domain = site.url | append:site.baseurl | append:'/' %}
-
-                {% assign url = link.url %}
-                {% if pagelinkfirst != link.url %}
-                    {% assign url = url | append:pageurl | append:'/' %}
-                    {% assign url = url | replace:'//','/' %}
-                    <li><a class="inactive" href="{{ domain | append:url }}">{{ link.title | escape }}</a></li>
-                {% else %}
-                    <li><a class="active" href="{{ domain | append:url }}">{{ link.title | escape }}</a></li>
-                {% endif %}
-            {% endfor %}
-            </ul>
-        </div>
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
