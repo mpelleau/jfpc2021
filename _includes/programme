@@ -1,0 +1,59 @@
+
+{% assign program = include.program %}
+
+<!-- Programme -->
+
+
+<div class="programme">
+    <div class="days">
+        {% for agenda in program %}
+            {% if forloop.index == 1 %}
+                <div class="programme-jour active">{{ agenda.day }}</div>
+            {% else %}
+                <div class="programme-jour">{{ agenda.day }}</div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% for agenda in program %}
+    {% if forloop.index == 1 %}
+    <div id="{{ agenda.day }}" class="show">
+    {% else %}
+    <div id="{{ agenda.day }}" class="hide">
+    {% endif %}
+        <ul class="timeline">
+            {% for session in agenda.sessions %}
+            {% assign r = forloop.index | modulo:2 %}
+            {% if r == 1 %}
+            <li>
+            {% else %}
+            <li class="timeline-inverted">
+            {% endif %}
+                <div class="tl-circ"></div>
+                <div class="timeline-panel">
+                    <div class="tl-heading">
+                        <session-title>{{ session.title }}</session-title>
+                        {% if session.room %}<session-room>{{ session.room }}</session-room>{% endif %}
+                        {% if session.chair %}<session-chair>Animée par <session-chair-name>{{ session.chair }}</session-chair-name></session-chair>{% endif %}
+                        {% if session.info %}<session-info>{{ session.info }}</session-info>{% endif %}
+                        {% if session.talks %}
+                        <ul class = "talks">
+                            {% for talk in session.talks %}
+                            <li>
+                                <a href="{{ talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
+                                <session-talk>Par {{ talk.authors }}.</session-talk>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="timeline-date">
+                    <div class="tl-cal">{{ session.time }}</div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>

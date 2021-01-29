@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if page.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+
+    <style type="text/css">
+        /*INCLUDE MAIN CSS FILE*/
+        {% capture criticalcss %}
+            {% include critical.scss %}
+        {% endcapture %}
+        {{ criticalcss | scssify }}
+    </style>
+  
+  {% include js %}
+  {% include _head.html %}
+  
+  <body>
+    {% if page.conference %} 
+        {% include navigation_bar navigation = site.data.navigation_conf link = page.link %}
+    {% else %}
+        {% include navigation_bar navigation = site.data.navigation %}
+    {% endif %}
+    <div class="event black-frame">
+        {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+        <h1>{{ page.title }}</h1>
+        
+        {{ content }}
+    </div>
+  </body>
+  {% include _footer.html %}
+</html>

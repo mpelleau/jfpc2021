@@ -1,0 +1,81 @@
+- day: Lundi 21 juin
+  sessions:
+  - time: 10h-12h
+    title: Sessions GT
+    info: Réunions pour vos GDR/GT
+    room: Amphi 200, 201, 202
+  - time: 14h-18h
+    title: Sessions GT
+    info: Réunions pour vos GDR/GT
+    room: Amphi 200, 201, 202
+    
+- day: Mardi 22 juin
+  sessions:
+  - time: 10h-12h
+    title: Sessions GT
+    info: Réunions pour vos GDR/GT
+    room: Amphi 200, 201, 202
+  - time: 14h-14h30 
+    title: Ouverture des journées
+    room: Amphi 200
+  - time: 14h30-18h
+    title: Sessions
+    room: Amphi 200
+    chair: Toto
+    talks:
+      - title: Talk1
+        authors: Auteur1, Auteur2 et Auteur3
+        link:
+      - title: Talk2
+        authors: Auteur4 et Auteur5
+        link:
+      - title: Talk3
+        authors: Auteur6, Auteur 7, Auteur8, Auteur9 et Auteur10
+        link:
+  - time: 18h-19h
+    title: Pot de bienvenue
+    room: Salle des Pas Perdus
+
+- day: Mercredi 23 juin
+  sessions:
+  - time: 9h-11h
+    title: Sessions
+    room: Amphi 200
+  - time: 11h-12h
+    title: Exposé invité
+    room: Amphi 200
+  - time: 14h-17h
+    title: Sessions
+    room: Amphi 200
+  - time: 17h-19h
+    title: AG AFPC
+    room: Amphi 200
+  - time: 20h-22h
+    title: Repas du CA
+
+- day: Jeudi 24 juin
+  sessions:
+  - time: 9h-11h
+    title: Sessions
+    room: Amphi 200
+  - time: 11h-12h
+    title: Exposé invité
+    room: Amphi 200
+  - time: 14h-16h
+    title: Sessions
+    room: Amphi 200
+  - time: 16h-18h
+    title: Visite de Nice
+  - time: 20h-23h
+    title: Gala
+
+- day: Vendredi 25 juin
+  sessions:
+  - time: 9h-11h
+    title: Sessions
+    room: Amphi 200
+  - time: 11h-12h
+    title: Exposé invité
+    room: Amphi 200
+  - time: 12h-14h
+    title: Panier repas

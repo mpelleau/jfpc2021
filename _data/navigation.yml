@@ -1,0 +1,33 @@
+- title: "Programme"
+  url: "agenda/"
+  side: left
+
+- title: "Comité"
+  url: "team/"
+  side: left
+
+- title: "Soumission"
+  url: "soumission/"
+  side: left
+
+- title: "Précédentes éditions"
+  url: "editions/"
+  side: left
+
+
+- title: "Inscription"
+  url: "inscription/"
+  side: right
+
+- title: "À propos"
+  url: "about/"
+  side: right
+
+- title: "Nice"
+  url: "venue/"
+  side: right
+
+- title: "Soutiens"
+  url: "sponsors/"
+  side: right
+

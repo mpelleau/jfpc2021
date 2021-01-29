@@ -1,0 +1,29 @@
+- inverted: 
+  img: icon-about.png
+  name: À propos
+  info: Plus de détails sur notre thématique, vision et mission
+  link: /about/
+
+- inverted: bulletinfo-inverted
+  img: icon-agenda.png
+  name: Programme
+  info: Découvrez le programme
+  link: /agenda/
+
+- inverted: 
+  img: icon-team.png
+  name: Comités
+  info: Découvrez les comités
+  link: /team/
+
+- inverted: bulletinfo-inverted
+  img: icon-venue.png
+  name: Nice
+  info: Quelques informations sur Nice
+  link: /venue/
+
+- inverted: 
+  img: icon-booklet.png
+  name: Quelques adresses
+  info: 
+  link: /booklet/

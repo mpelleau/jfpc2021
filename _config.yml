@@ -1,0 +1,50 @@
+title: "JOURNÉES FRANCOPHONES <br>de PROGRAMMATION par CONTRAINTES"
+shorttitle: "JFPC"
+date: "Du 21 au 25 juin 2021"
+location: "NICE <br>CAMPUS TROTABAS"
+description: > # this means to ignore newlines until "baseurl:"
+    "JFPC du 21 au 25 juin 2021 à Nice"
+baseurl: "/jfpc_2021" # the subpath of your site, e.g. /blog
+url: "http://i3s.unice.fr"
+
+sidebar:
+  - title: "Soumission du résumé"
+    text: "TBA"
+  - title: "Soumission de l'article"
+    text: "TBA"
+
+facebook:
+  app_id: 
+
+logo: "⁨assets⁩/img/favicon.png"
+
+language: 'fr'
+
+include: ['_pages']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github fa-lg
+    url: https://github.com/mpelleau/jfpc2021
+  - title: twitter
+    url: https://twitter.com
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+sass:
+  sass_dir: _sass
+  style: :expanded
+  line_numbers: true
+  sourcemap: always
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - INSTALL.md
