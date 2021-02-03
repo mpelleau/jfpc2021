@@ -45,7 +45,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-left">
                 <li class="hidden">
-                    <a href="/"></a>
+                    <a href="{{ site.url | append:site.baseurl }}/"></a>
                 </li>
                 {% assign links = navigation | where: "side","left" %}
                 {% for link in links %}
@@ -57,7 +57,7 @@
                         {% assign domain = site.url | append:site.baseurl | append:'/' %}
                     {% endif %}
 
-                    {% assign url = link.url | prepend:'/' | prepend:page.conference %}
+                    {% assign url = link.url %}
                     {% assign tmp = url | prepend:'/' %}
                     <li{% if tmp == page.url %} class="active" {% endif %}>
                         <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
