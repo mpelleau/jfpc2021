@@ -6,11 +6,9 @@ title: Soumission
 published: true
 ---
 
-L'appel à communications sera bientôt disponible
+<!--L'appel à communications est [ici](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=99297). -->
 
-<!-- est [ici](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=99297).
-
-Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/my/conference?conf=jfpc2020).
+Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/conferences/?conf=jfpc2021).
 
 Une soumission peut être :
 
@@ -18,7 +16,7 @@ Une soumission peut être :
 - un article court : 4 pages<sup>[1](#n1){:.fnref #ref1}</sup>,
 - un article très court condensant un article déjà publié : 2 pages<sup>[2](#n2){:.fnref #ref2}</sup>.
 
-L'archive des [Consignes aux auteurs]({% include link-asset asset="styleJFPC2020.zip" %}) contient la classe LaTeX jfpc ainsi qu'un document d'exemple détaillant toutes les recommandations.
+L'archive des [Consignes aux auteurs]({% include link-asset asset="styleJFPC2021.zip" %}) contient la classe LaTeX jfpc ainsi qu'un document d'exemple détaillant toutes les recommandations.
 
 [1](#ref1){:#n1}. Les articles courts peuvent, par exemple, présenter des travaux préliminaires de jeunes chercheurs, un panorama des travaux en cours au sein d'un projet de recherche ou d'un laboratoire, une application résolue avec la programmation par contraintes, ou encore un logiciel de programmation par contraintes.
 {:.sidenote}
