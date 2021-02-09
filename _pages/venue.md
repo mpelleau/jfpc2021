@@ -20,7 +20,7 @@ Des informations concernant les possibles trajets pour venir à Nice se trouvent
 
 Quelques adresses de bars et restaurants se trouvent [ici]({{ site.baseurl }}/booklet/).
 
-Les hôtels aux alentours du lieu de la conférence se trouvent [ici](https://goo.gl/maps/DtKGYCuf7ykiYNsE7){: target="_blank"}
+Les hôtels aux alentours du lieu de la conférence se trouvent [ici](https://goo.gl/maps/Kq7Ai2EjZcxjpUmn7){: target="_blank"}
 
 # Lieux de la conférence
 
