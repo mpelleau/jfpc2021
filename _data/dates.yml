@@ -1,10 +1,12 @@
 - title: Soumission du résumé 
   plus: <a href="https://easychair.org/my/conference?conf=jfpc2021" style="float:right"><i class="fas fa-upload"></i></a>
-  date: 29 mars 2021
+  olddate: 29 mars 2021
+  date: 6 avril 2021
 
 - title: Soumission de l'article 
   plus: <a href="https://easychair.org/my/conference?conf=jfpc2021" style="float:right"><i class="fas fa-upload"></i></a>
-  date: 2 avril 2021
+  olddate: 2 avril 2021
+  date: 10 avril 2021
 
 #- title: Retour des relecteurs
 #  info: au comité scientifique
