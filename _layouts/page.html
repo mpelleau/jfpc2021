@@ -3,7 +3,7 @@
 
   {% include _head.html %}
   
-  <body>
+  <body ondragstart="return false;" ondrop="return false;">
     {% if page.conference %} 
         {% include navigation_bar navigation = site.data.navigation_conf link = page.link %}
     {% else %}

@@ -4,7 +4,7 @@
     {% include _head.html %}
 
 
-    <body id="page-top" class="index">
+    <body id="page-top" class="index" ondragstart="return false;" ondrop="return false;">
 
         {% include navigation_bar navigation = site.data.navigation home = true %} 
 
@@ -37,7 +37,6 @@
     
     {% include _sponsors.html %}
     {% include _footer.html %}
-    {% include js %}
 
     </body>
 </html>
