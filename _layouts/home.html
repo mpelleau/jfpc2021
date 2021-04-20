@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{% if page.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 
-    <style type="text/css">
-        /*INCLUDE MAIN CSS FILE*/
-        {% capture criticalcss %}
-            {% include critical.scss %}
-        {% endcapture %}
-        {{ criticalcss | scssify }}
-    </style>
-
-    {% include js %}
     {% include _head.html %}
 
 
