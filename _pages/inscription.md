@@ -13,6 +13,7 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 
 Les inscriptions ne sont pas encore ouvertes.
 
+<!--
 ## Tarifs (provisoires)
 
 |            | PRÉFÉRENTIEL   | MAJORÉ            | SUR PLACE         |
@@ -23,3 +24,4 @@ Les inscriptions ne sont pas encore ouvertes.
 | Industriel | 200            | 250               | 300               |
 
 L'[AFPC](http://www.afpc-asso.org/web/) (Association Française pour la Programmation par Contraintes) offre l'adhésion 2021 à chaque participant aux JFPC 2021 qui le souhaite. Pour en bénéficier, n'oubliez pas de cocher la case correspondante lors de votre inscription.
+-->

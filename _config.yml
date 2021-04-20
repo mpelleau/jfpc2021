@@ -1,7 +1,8 @@
 title: "JOURNÉES FRANCOPHONES <br>de PROGRAMMATION par CONTRAINTES"
 shorttitle: "JFPC"
 date: "Du 21 au 25 juin 2021"
-location: "NICE <br>CAMPUS TROTABAS"
+oldlocation: "NICE <br>CAMPUS TROTABAS"
+location: "EN LIGNE"
 description: > # this means to ignore newlines until "baseurl:"
     "JFPC du 21 au 25 juin 2021 à Nice"
 baseurl: "/jfpc_2021" # the subpath of your site, e.g. /blog

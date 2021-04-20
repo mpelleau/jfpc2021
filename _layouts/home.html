@@ -32,7 +32,7 @@
                 {% endif %}
                 <ul class="home">
                     <li><a class="btn btn-xl" href="{{ site.url | append:site.baseurl }}/inscription/">INSCRIPTION</a></li>
-                    <li><div class="intro-lead-in">{{ site.date }}<br>{{ site.location }}</div></li>
+                    <li><div class="intro-lead-in">{{ site.date }}<br>{% if site.oldlocation %}<loc-old>{{ site.oldlocation }}</loc-old><br>{% endif %}{{ site.location }}</div></li>
                 </ul>
             </div>
             <!--div class="intro-info"><a href="https://www.facebook.com/pg/ThomasCalvanicoPhotographe" target="_blank">&copy; Thomas Calvanico</a></div-->
