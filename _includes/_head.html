@@ -7,8 +7,6 @@
         {% endcapture %}
         {{ criticalcss | scssify }}
     </style>
-  
-    {% include js %}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,4 +63,6 @@
     <!--Remove image dragging: Must be the last thing in the head!!! 
     <BODY ondragstart="return false;" ondrop="return false;">
         -->
+    
+    {% include js %}
 </head>
