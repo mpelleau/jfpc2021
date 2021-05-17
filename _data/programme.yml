@@ -35,6 +35,7 @@
   - time: 18h-19h
     title: Pot de bienvenue
     room: Salle des Pas Perdus
+    notinform: true
 
 - day: Mercredi 23 juin
   sessions:
@@ -52,6 +53,7 @@
     room: Amphi 200
   - time: 20h-22h
     title: Repas du CA
+    notinform: true
 
 - day: Jeudi 24 juin
   sessions:
@@ -66,8 +68,10 @@
     room: Amphi 200
   - time: 16h-18h
     title: Visite de Nice
+    notinform: true
   - time: 20h-23h
     title: Gala
+    notinform: true
 
 - day: Vendredi 25 juin
   sessions:
@@ -79,3 +83,4 @@
     room: Amphi 200
   - time: 12h-14h
     title: Panier repas
+    notinform: true

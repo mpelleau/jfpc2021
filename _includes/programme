@@ -6,29 +6,29 @@
 
 <div class="programme">
     <div class="days">
-        {% for agenda in program %}
-            {% if forloop.index == 1 %}
-                <div class="programme-jour active">{{ agenda.day }}</div>
-            {% else %}
-                <div class="programme-jour">{{ agenda.day }}</div>
-            {% endif %}
-        {% endfor %}
+        {%- for agenda in program -%}
+            {%- if forloop.index == 1 %}
+        <div class="programme-jour active">{{ agenda.day }}</div>
+            {%- else %}
+        <div class="programme-jour">{{ agenda.day }}</div>
+            {%- endif %}
+        {%- endfor %}
     </div>
 
-    {% for agenda in program %}
-    {% if forloop.index == 1 %}
+    {%- for agenda in program -%}
+        {%- if forloop.index == 1 %}
     <div id="{{ agenda.day }}" class="show">
-    {% else %}
+        {%- else %}
     <div id="{{ agenda.day }}" class="hide">
-    {% endif %}
+        {%- endif %}
         <ul class="timeline">
-            {% for session in agenda.sessions %}
-            {% assign r = forloop.index | modulo:2 %}
-            {% if r == 1 %}
+            {%- for session in agenda.sessions -%}
+                {%- assign r = forloop.index | modulo:2 %}
+                {%- if r == 1 %}
             <li>
-            {% else %}
+                {%- else %}
             <li class="timeline-inverted">
-            {% endif %}
+                {%- endif %}
                 <div class="tl-circ"></div>
                 <div class="timeline-panel">
                     <div class="tl-heading">
@@ -36,24 +36,24 @@
                         {% if session.room %}<session-room>{{ session.room }}</session-room>{% endif %}
                         {% if session.chair %}<session-chair>Animée par <session-chair-name>{{ session.chair }}</session-chair-name></session-chair>{% endif %}
                         {% if session.info %}<session-info>{{ session.info }}</session-info>{% endif %}
-                        {% if session.talks %}
+                        {%- if session.talks %}
                         <ul class = "talks">
-                            {% for talk in session.talks %}
+                            {%- for talk in session.talks %}
                             <li>
                                 <a href="{{ talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
                                 <session-talk>Par {{ talk.authors }}.</session-talk>
                             </li>
-                            {% endfor %}
+                            {%- endfor %}
                         </ul>
-                        {% endif %}
+                        {%- endif %}
                     </div>
                 </div>
                 <div class="timeline-date">
                     <div class="tl-cal">{{ session.time }}</div>
                 </div>
             </li>
-            {% endfor %}
+            {%- endfor %}
         </ul>
     </div>
-    {% endfor %}
+    {%- endfor %}
 </div>

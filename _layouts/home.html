@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="{% if page.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<html class="no-js" lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
 
     {% include _head.html %}
 
@@ -29,7 +29,7 @@
             <!--div class="intro-info"><a href="https://www.facebook.com/pg/ThomasCalvanicoPhotographe" target="_blank">&copy; Thomas Calvanico</a></div-->
         </div>
     </header>
-    {% include js %}
+    <script src="{{ "/css/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
     
     {% include _plan.html links = site.data.sitemap %}
 

@@ -1,0 +1,33 @@
+@import "colors";
+@import "fonts";
+
+form {
+    .well {
+        background-color: $light-color;
+    }
+}
+
+label {
+    font-family: $primary-font;
+    color: $primary-color;
+    &.required::after {
+        color: $alert-color;
+        content: " *";
+    }
+}
+
+day {
+    font-family: $primary-font;
+    color: $secondary-color;
+}
+
+error {
+    font-family: $primary-font;
+    color: $alert-color;
+}
+
+.btn {
+    color: white;
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+}

@@ -1,0 +1,58 @@
+
+
+<!-- Formulaire -->
+<!-- Form Events -->
+<script src="{{ site.url }}{{ site.baseurl }}/css/inscription.js"></script>
+
+<form method="POST" id="inscription" action="confirmation" class="well form-horizontal">
+    <fieldset>
+        {% for field in site.data.inscription %}
+        <div class="form-group">
+            <label class="col-md-4 control-label{% if field.required %} required{% endif %}">{{ field.champ }}</label>  
+            <div class="col-md-4 inputGroupContainer,input-group">
+            {%- if field.text %}
+                <textarea id="{{ field.id }}" placeholder="{{ field.champ }}" class="form-control"></textarea>
+            {%- else %}
+                <input  id="{{ field.id }}" placeholder="{{ field.champ }}" class="form-control" type="text">
+            {%- endif %}
+            {%- if field.error %}
+                <error id="{{ field.id | append:"_err" }}" class="hide">{{ field.error }}</error>
+            {%- endif %}
+            </div>
+        </div>
+        {% endfor %}
+        
+        <div class="form-group" id="sessions">
+            <label class="col-md-4 control-label">À quelles sessions pensez-vous participer ?</label>
+            <div class="col-md-4">
+                {%- for agenda in site.data.programme %}
+                <day>{{ agenda.day }}</day>
+                    {%- for session in agenda.sessions -%}
+                        {%- unless session.notinform %}
+                <div class="checkbox">
+                    <input type="checkbox" name="session" value="{{ agenda.day | split:" " | first | append:"_" | append:session.time }}" /> {{ session.time | append:" - " | append:session.title}}
+                </div>
+                        {%- endunless %}
+                    {%- endfor %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Pour les bots -->
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+                <button type="submit" class="btn" >S'inscrire <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+
+        <div id="success" class="hide">
+        <h3>Merci ! Votre inscription a été prise en compte.</h3>
+        Un email de confirmation devrait vous être envoyer dans les 24h.
+        </div>
+
+    </fieldset>
+</form>

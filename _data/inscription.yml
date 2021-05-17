@@ -1,0 +1,19 @@
+- champ: Nom
+  id: _lname
+  required: true
+  error: "Entrez votre nom"
+- champ: Prénom
+  id: _fname
+  required: true
+  error: "Entrez votre prénom"
+- champ: Email
+  id: _replyto
+  required: true
+  error: "Entrez votre adresse email"
+- champ: Institution
+  id: institution
+  required: true
+  error: "Entrez votre institution"
+- champ: Adresse de livraison
+  id: adresse
+  text: true

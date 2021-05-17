@@ -11,3 +11,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/css/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Agenda Events -->
+    <script src="{{ site.url }}{{ site.baseurl }}/css/programme.js"></script>
+

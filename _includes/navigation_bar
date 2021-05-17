@@ -26,43 +26,41 @@
                 <li class="hidden">
                     <a href="{{ site.url | append:site.baseurl }}/"></a>
                 </li>
-                {% assign links = navigation | where: "side","right" %}
-                {% for link in links %}
+                {%- assign links = navigation | where: "side","right" %}
+                {%- for link in links -%}
                     {% if link.url contains 'http' %}
-                        {% assign domain = '' %}
+                        {%- assign domain = '' %}
                     {% elsif link.url == '#' %}
-                        {% assign domain = site.baseurl | append:'/' %}
+                        {%- assign domain = site.baseurl | append:'/' %}
                     {% else %}
-                        {% assign domain = site.url | append:site.baseurl | append:'/' %}
+                        {%- assign domain = site.url | append:site.baseurl | append:'/' %}
                     {% endif %}
-
-                    {% assign url = link.url %}
-                    {% assign tmp = url | prepend:'/' %}
-                    <li{% if tmp == page.url %} class="active" {% endif %}>
-                        <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-                    </li>
-                {% endfor %}
+                    {%- assign url = link.url %}
+                    {%- assign tmp = url | prepend:'/' %}
+                <li{% if tmp == page.url %} class="active" {% endif %}>
+                    <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                </li>
+                {%- endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-left">
                 <li class="hidden">
                     <a href="{{ site.url | append:site.baseurl }}/"></a>
                 </li>
-                {% assign links = navigation | where: "side","left" %}
-                {% for link in links %}
+                {%- assign links = navigation | where: "side","left" %}
+                {%- for link in links -%}
                     {% if link.url contains 'http' %}
-                        {% assign domain = '' %}
+                        {%- assign domain = '' %}
                     {% elsif link.url == '#' %}
-                        {% assign domain = site.baseurl | append:'/' %}
+                        {%- assign domain = site.baseurl | append:'/' %}
                     {% else %}
-                        {% assign domain = site.url | append:site.baseurl | append:'/' %}
+                        {%- assign domain = site.url | append:site.baseurl | append:'/' %}
                     {% endif %}
-
-                    {% assign url = link.url %}
-                    {% assign tmp = url | prepend:'/' %}
-                    <li{% if tmp == page.url %} class="active" {% endif %}>
-                        <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-                    </li>
-                {% endfor %}
+                    {%- assign url = link.url %}
+                    {%- assign tmp = url | prepend:'/' %}
+                <li{% if tmp == page.url %} class="active" {% endif %}>
+                    <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                </li>
+                {%- endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
