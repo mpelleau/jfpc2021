@@ -38,6 +38,6 @@ $(document).ready(function() {
             $("div[id='success']").removeClass("hide").addClass("show");
         }
 
-        return false;
+        return valid;
     });
 });
