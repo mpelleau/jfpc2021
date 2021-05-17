@@ -4,7 +4,7 @@
 <!-- Form Events -->
 <script src="{{ site.url }}{{ site.baseurl }}/css/inscription.js"></script>
 
-<form method="POST" id="inscription" action="confirmation" class="well form-horizontal">
+<form method="POST" id="inscription" action="confirmation.php" class="well form-horizontal">
     <fieldset>
         {% for field in site.data.inscription %}
         <div class="form-group">

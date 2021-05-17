@@ -2,7 +2,7 @@
 layout: page
 title: Inscription prise en compte
 published: true
-permalink: test/confirmation
+permalink: test/confirmation.php
 ---
 
 Votre inscription a été prise en compte.
