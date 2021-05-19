@@ -2,9 +2,10 @@
 
 <!-- Formulaire -->
 <!-- Form Events -->
-<script src="{{ site.url }}{{ site.baseurl }}/css/inscription.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/css/js/inscription.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
-<form method="POST" id="inscription" action="confirmation.php" class="well form-horizontal">
+<form method="POST" id="inscription" class="well form-horizontal">
     <fieldset>
         {% for field in site.data.inscription %}
         <div class="form-group">
@@ -15,8 +16,14 @@
             {%- else %}
                 <input  id="{{ field.id }}" placeholder="{{ field.champ }}" class="form-control" type="text">
             {%- endif %}
-            {%- if field.error %}
-                <error id="{{ field.id | append:"_err" }}" class="hide">{{ field.error }}</error>
+            {%- if field.error -%}
+                {% for error in field.error %}
+                    {%- if forloop.index == 1%}
+                <error id="{{ field.id | append:"_err" }}" class="hide">{{ error }}</error>
+                    {%- else %}
+                <error id="{{ field.id | append:"_err" | append:forloop.index }}" class="hide">{{ error }}</error>
+                    {%- endif %}
+                {%- endfor %}
             {%- endif %}
             </div>
         </div>
@@ -39,7 +46,7 @@
         </div>
 
         <!-- Pour les bots -->
-        <input type="text" name="_gotcha" style="display:none" />
+        <input type="text" name="gotcha" style="display:none" />
 
         <!-- Button -->
         <div class="form-group">
@@ -52,6 +59,12 @@
         <div id="success" class="hide">
         <h3>Merci ! Votre inscription a été prise en compte.</h3>
         Un email de confirmation devrait vous être envoyer dans les 24h.
+        </div>
+
+        <div id="error" class="hide">
+            <error style="font-size: 1.17em;">
+                <i class="fas fa-exclamation-triangle"></i> Votre inscription n'a pas été prise en compte.
+            </error>
         </div>
 
     </fieldset>

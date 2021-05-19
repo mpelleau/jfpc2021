@@ -11,6 +11,5 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 
 ## Inscription en ligne
 
-This will be {%- raw %}<?php echo("parsed"); ?>{% endraw -%} correctly.
-
+Pour vous inscrire, veuillez remplir le formulaire suivant :
 {% include form %}
