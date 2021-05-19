@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $("#inscription").submit(function () {
-        // Get the Login Name value and trim it
         var lname = $.trim($("#lname").val());
         var fname = $.trim($("#fname").val());
         var email = $.trim($("#replyto").val());
@@ -46,7 +45,7 @@ $(document).ready(function() {
             firstmessage = false;
             sendmessage = "<html>Bonjour " + fname + " " + lname + ",<br>Votre inscription aux JFPC 2021 a bien été prise en compte.<br>"
             if (adresse != '') {
-                sendmessage += "Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll("\n", "<br>"); + "<br>";
+                sendmessage += "Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
             }
             sendmessage += "</html>";
             var sessions = [];
@@ -61,7 +60,7 @@ $(document).ready(function() {
             header = "Prénom,Nom,Email,Institution,Adresse," + sessions + "\n";
             datamessage = fname + "," + lname + "," + email + "," + institution + ",\"" + adresse + "\"" + checks + "\n";
             Email.send({
-                SecureToken : "7848cce3-c2e6-4ba7-880f-71e13dad1f50",
+                SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba", //"7848cce3-c2e6-4ba7-880f-71e13dad1f50",
                 To : email,
                 From : " jfpc2021@i3s.unice.fr",
                 Subject : "[JFPC 2021] Confirmation d'inscription",

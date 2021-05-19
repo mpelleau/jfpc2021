@@ -57,8 +57,8 @@
         </div>
 
         <div id="success" class="hide">
-        <h3>Merci ! Votre inscription a été prise en compte.</h3>
-        Un email de confirmation devrait vous être envoyé dans les 24h.
+            <h3>Merci ! Votre inscription a été prise en compte.</h3>
+            Un email de confirmation devrait vous être envoyé dans les 24h (vérifiez vos pourriels).
         </div>
 
         <div id="error" class="hide">
