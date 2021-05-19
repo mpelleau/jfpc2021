@@ -5,13 +5,13 @@
         $filename = 'inscription.csv';
         if (file_exists($filename)) {
             $fd = fopen($filename, "a");
-            fputs($fd, "$data"."\n");
+            fputs($fd, "$data");
             fclose($fd);
         } else {
             $fd = fopen($filename, "w");
             if ($fd) {
-                fputs($fd, "$entete"."\n");
-                fputs($fd, "$data"."\n");
+                fputs($fd, "$entete");
+                fputs($fd, "$data");
             }
         }
     }
