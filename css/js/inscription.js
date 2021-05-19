@@ -8,7 +8,7 @@ $(document).ready(function() {
         var adresse = $.trim($("#adresse").val());
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         var isbot = $.trim($("#gotcha").val());
-
+        
         var valid = true;
         if (isbot === '') {
             if (lname === '') {
