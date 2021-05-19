@@ -8,7 +8,7 @@ $(document).ready(function() {
         var adresse = $.trim($("#adresse").val());
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         var isbot = $.trim($("#gotcha").val());
-        
+
         var valid = true;
         if (isbot === '') {
             if (lname === '') {
@@ -46,7 +46,7 @@ $(document).ready(function() {
             firstmessage = false;
             sendmessage = "<html>Bonjour " + fname + " " + lname + ",<br>Votre inscription aux JFPC 2021 a bien été prise en compte.<br>"
             if (adresse != '') {
-                sendmessage += "Vous avez donné l'adresse de livraison suivante :<br>" + adresse + "<br>";
+                sendmessage += "Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll("\n", "<br>"); + "<br>";
             }
             sendmessage += "</html>";
             var sessions = [];
