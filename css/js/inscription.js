@@ -58,7 +58,8 @@ $(document).ready(function() {
                     checks += "1";
                 }
             })
-            datamessage = "Prénom,Nom,Email,Institution,Adresse," + sessions + "\n" + fname + "," + lname + "," + email + "," + institution + "," + adresse + checks;
+            header = "Prénom,Nom,Email,Institution,Adresse," + sessions + "\n" 
+            datamessage = fname + "," + lname + "," + email + "," + institution + "," + adresse + checks + "\n";
             Email.send({
                 SecureToken : "7848cce3-c2e6-4ba7-880f-71e13dad1f50",
                 To : email,
@@ -76,9 +77,8 @@ $(document).ready(function() {
             $.ajax({
                 url: '../css/js/inscription.php',
                 type: 'POST',
-                data: {data:datamessage},
+                data: {data:datamessage, header:header},
                 success: function(data) {
-                    alert(data); 
                     if (firstmessage) {
                         $("div[id='success']").removeClass("hide").addClass("show");
                     } else {
