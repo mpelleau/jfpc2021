@@ -8,11 +8,7 @@
 <form method="POST" id="inscription" class="well form-horizontal">
     <fieldset>
         {% for field in site.data.inscription %}
-        {%- assign class = "form-group"%}
-        {%- if field.hide %}
-            {%- assign class = class | append:" hide"%}
-        {%- endif %}
-        <div class="{{ class }}" id={{ field.id | append:"_div" }}>
+        <div class="form-group" id={{ field.id | append:"_div" }} {% if field.hide %}style="display: none;"{% endif %}>
             <label class="col-md-4 control-label{% if field.required %} required{% endif %}">{{ field.champ }}</label>  
             <div class="col-md-4 inputGroupContainer,input-group">
             {%- assign info = field.champ %}

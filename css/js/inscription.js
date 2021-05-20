@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $("#adresse").on('change keyup paste', function() {  
         if(this.value.length){
-          $("#comp_div").removeClass("hide").addClass("show");
+            $("#comp_div").show();
+        } else {
+            $("#comp_div").hide();
         }
     });
 
@@ -48,13 +50,13 @@ $(document).ready(function() {
         }
 
         if (valid && isbot === '') {
-            $("div[class='form-group']").addClass("hide");
+            $("div[class='form-group']").removeClass("show").addClass("hide");
             firstmessage = false;
             sendmessage = "<html>Bonjour " + fname + " " + lname + ",<br><br>Votre inscription aux JFPC 2021 a bien été prise en compte.<br>"
             if (adresse != '') {
                 sendmessage += "<br>Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
                 if (comp != '') {
-                    sendmessage += "<br>Ainsi que le complément d'adresse suivant :<br>" + comp.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
+                    sendmessage += "<br><br>Ainsi que le complément d'adresse suivant :<br>" + comp.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
                 }
             }
             sendmessage += "<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
