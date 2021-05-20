@@ -22,3 +22,8 @@
 - champ: Adresse de livraison
   id: adresse
   text: true
+- champ: "Complément d'adresse"
+  id: "comp"
+  text: true
+  hide: true
+  info: "Mettez les informations les plus précises possibles (digicode, bâtiment, numéro de téléphone, ...) pour que le facteur vous trouve"

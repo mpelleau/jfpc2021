@@ -8,13 +8,21 @@
 <form method="POST" id="inscription" class="well form-horizontal">
     <fieldset>
         {% for field in site.data.inscription %}
-        <div class="form-group">
+        {%- assign class = "form-group"%}
+        {%- if field.hide %}
+            {%- assign class = class | append:" hide"%}
+        {%- endif %}
+        <div class="{{ class }}" id={{ field.id | append:"_div" }}>
             <label class="col-md-4 control-label{% if field.required %} required{% endif %}">{{ field.champ }}</label>  
             <div class="col-md-4 inputGroupContainer,input-group">
+            {%- assign info = field.champ %}
+            {%- if field.info %}
+                {%- assign info = field.info %}
+            {%- endif %}
             {%- if field.text %}
-                <textarea id="{{ field.id }}" placeholder="{{ field.champ }}" class="form-control"></textarea>
+                <textarea id="{{ field.id }}" placeholder="{{ info }}" class="form-control"></textarea>
             {%- else %}
-                <input  id="{{ field.id }}" placeholder="{{ field.champ }}" class="form-control" type="text">
+                <input  id="{{ field.id }}" placeholder="{{ info }}" class="form-control" type="text">
             {%- endif %}
             {%- if field.error -%}
                 {% for error in field.error %}

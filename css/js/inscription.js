@@ -1,10 +1,17 @@
 $(document).ready(function() {
+    $("#adresse").on('change keyup paste', function() {  
+        if(this.value.length){
+          $("#comp_div").removeClass("hide").addClass("show");
+        }
+    });
+
     $("#inscription").submit(function () {
         var lname = $.trim($("#lname").val());
         var fname = $.trim($("#fname").val());
         var email = $.trim($("#replyto").val());
         var institution = $.trim($("#institution").val());
         var adresse = $.trim($("#adresse").val());
+        var comp = $.trim($("#comp").val());
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         var isbot = $.trim($("#gotcha").val());
 
@@ -43,11 +50,14 @@ $(document).ready(function() {
         if (valid && isbot === '') {
             $("div[class='form-group']").addClass("hide");
             firstmessage = false;
-            sendmessage = "<html>Bonjour " + fname + " " + lname + ",<br>Votre inscription aux JFPC 2021 a bien été prise en compte.<br>"
+            sendmessage = "<html>Bonjour " + fname + " " + lname + ",<br><br>Votre inscription aux JFPC 2021 a bien été prise en compte.<br>"
             if (adresse != '') {
-                sendmessage += "Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
+                sendmessage += "<br>Vous avez donné l'adresse de livraison suivante :<br>" + adresse.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
+                if (comp != '') {
+                    sendmessage += "<br>Ainsi que le complément d'adresse suivant :<br>" + comp.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
+                }
             }
-            sendmessage += "</html>";
+            sendmessage += "<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
             var sessions = [];
             checks = ""
             $("div[id='sessions'] input:checkbox").each(function(){
@@ -57,10 +67,10 @@ $(document).ready(function() {
                     checks += "1";
                 }
             })
-            header = "Prénom,Nom,Email,Institution,Adresse," + sessions + "\n";
-            datamessage = fname + "," + lname + "," + email + "," + institution + ",\"" + adresse + "\"" + checks + "\n";
+            header = "Prénom,Nom,Email,Institution,Adresse,Complément" + sessions + "\n";
+            datamessage = fname + "," + lname + "," + email + "," + institution + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
             Email.send({
-                SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba", //"7848cce3-c2e6-4ba7-880f-71e13dad1f50",
+                SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba",
                 To : email,
                 From : " jfpc2021@i3s.unice.fr",
                 Subject : "[JFPC 2021] Confirmation d'inscription",
