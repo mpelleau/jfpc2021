@@ -65,6 +65,11 @@ session-title {
     line-height: 25px;
 }
 
+session-author {
+    font-size: 18px;
+    line-height: 25px;
+}
+
 session-room {
     color: red;
     display: block;
@@ -114,4 +119,55 @@ session-talk {
     font-weight: lighter;
     font-size: 14px;
     line-height: 19px;
+}
+
+table {
+    th, td {
+        text-align: center !important;
+        background-color: white;
+        border: 2px solid white !important;
+        padding: 0 !important;
+    }
+    tr {
+        height: 1.5em !important;
+        &:hover{
+            color: red !important;
+            .hour {
+                font-weight: bolder;
+            }
+        }
+    }
+    .day {
+        color: $primary-color;
+    }
+    .hour {
+        vertical-align: top;
+        font-size: 14px;
+    }
+    .break {
+        background-color: $line-color;
+    }
+    .invite {
+        background-color: $secondary-color;
+        color: white;
+        font-weight: bolder;
+    }
+    .session-young {
+        background-color: #3ec8ff;
+    }
+    .session {
+        background-color: #00fff2;
+    }
+    .coffee {
+        background-color: #cd9afd;
+    }
+    .ag {
+        background-color: #9afd9a;
+    }
+    .apero {
+        background-color: #ffc167;
+    }
+    .debat {
+        background-color: #ffe867;
+    }
 }
