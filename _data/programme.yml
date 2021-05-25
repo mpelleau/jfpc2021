@@ -1,86 +1,199 @@
-- day: Lundi 21 juin
-  sessions:
-  - time: 10h-12h
-    title: Sessions GT
-    info: Réunions pour vos GDR/GT
-    room: Amphi 200, 201, 202
-  - time: 14h-18h
-    title: Sessions GT
-    info: Réunions pour vos GDR/GT
-    room: Amphi 200, 201, 202
-    
 - day: Mardi 22 juin
   sessions:
-  - time: 10h-12h
-    title: Sessions GT
-    info: Réunions pour vos GDR/GT
-    room: Amphi 200, 201, 202
-  - time: 14h-14h30 
-    title: Ouverture des journées
-    room: Amphi 200
-  - time: 14h30-18h
-    title: Sessions
-    room: Amphi 200
-    chair: Toto
-    talks:
-      - title: Talk1
-        authors: Auteur1, Auteur2 et Auteur3
-        link:
-      - title: Talk2
-        authors: Auteur4 et Auteur5
-        link:
-      - title: Talk3
-        authors: Auteur6, Auteur 7, Auteur8, Auteur9 et Auteur10
-        link:
-  - time: 18h-19h
-    title: Pot de bienvenue
-    room: Salle des Pas Perdus
-    notinform: true
+    - time: 11h-11h10
+      title: Ouverture des journées
+      room: Zoom
+    - time: 11h10-12h10
+      title: Exposé invité
+      info: Thomas schiex
+      room: Zoom
+    - time: 13h30-14h
+      title: Café
+      room: Gather Town
+    - time: 14h-14h50
+      title: Session A (Jeunes Chercheurs)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Ddo, un cadre générique et performant pour l’optimisation à base de diagrammes de décision
+          authors: Xavier Gillard, Pierre Schaus et Vianney Coppé
+#          link:
+        - title: Descente Agressive de la Borne en Optimisation sous Contraintes
+          authors: Thibault Falque, Christophe Lecoutre, Bertrand Mazure et Hugues Wattez
+#          link:
+        - title: Contrainte de sac-à-dos à choix multiples dans les réseaux de fonctions de coûts
+          authors: Pierre Montalbano, Simon de Givry et George Katsirelos
+#          link:
+    - time: 14h50-15h15
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 15h15-15h45
+      title: Session B (Exposés courts)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Apprentissage d’arbres de décision optimaux grâce à la programmation par contrainte
+          authors: Hélène Verhaeghe, Siegfried Nijssen, Gilles Pesant, Claude-Guy Quimper et Pierre Schaus
+#          link:
+        - title: Exploitation de l'apprentissage par renforcement avec la Programmation par Contraintes ou la Recherche Locale - Cas d'application dans l'industrie automobile
+          authors: Valentin Antuori, Emmanuel Hebrard, Marie-José Huguet, Siham Essodaigui et Alain Nguyen
+#          link:
+        - title: Un solveur générique par intervalles pour le CSP différentio-algébrique
+          authors: Simon Rohou, Abderahmane Bedouhene, Gilles Chabert, Alexandre Goldsztejn, Luc Jaulin, Bertrand Neveu, Victor Reyes et Gilles Trombettoni
+#          link:
+    - time: 15h45-16h15
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 16h15-17h05
+      title: Session C (Jeunes chercheurs)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Utiliser la PPC pour générer des structures de benzénoïdes en chimie théorique
+          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et Adrien Varet
+#          link:
+        - title: Prise en compte de motifs et génération de structures de benzénoïdes
+          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et Adrien Varet
+#          link:
+        - title: Stratégies de résolution anytime de problèmes de satisfaction de contraintes numériques
+          authors: Thomas Richard de Latour, Raphaël Chenouard et Laurent Granvilliers
+#          link:
+    - time: 17h05-17h30
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 17h30-18h30
+      title: "Débats \"pré-apéro\""
+      room: Zoom
+    - time: 18h30-19h30
+      title: Apéro
+      room: Gather Town
 
 - day: Mercredi 23 juin
   sessions:
-  - time: 9h-11h
-    title: Sessions
-    room: Amphi 200
-  - time: 11h-12h
-    title: Exposé invité
-    room: Amphi 200
-  - time: 14h-17h
-    title: Sessions
-    room: Amphi 200
-  - time: 17h-19h
-    title: AG AFPC
-    room: Amphi 200
-  - time: 20h-22h
-    title: Repas du CA
-    notinform: true
+    - time: 13h30-14h
+      title: Café
+      room: Gather Town
+    - time: 14h-15h
+      title: Exposé invité
+      info: Claude-Guy Quimper
+      room: Zoom
+    - time: 15h-15h15
+      title: Pause
+      room: Zoom
+      notinform: true
+    - time: 15h15-15h45
+      title: Session D (exposés courts)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: "Segmented Tables: an Efficient Modeling Tool for Constraint Reasoning"
+          authors: Gilles Audemard, Christophe Lecoutre et Mehdi Maamar
+#          link:
+        - title: "Abacus : Un nouvel encodage pour SAT"
+          authors: Claudia Vasconcellos-Gaete, Vincent Barichard et Frederic Lardeux
+#          link:
+        - title: Parallel Constraint Acquisition
+          authors: Nadjib Lazaar
+#          link:
+    - time: 15h45-16h15
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 16h15-17h20
+      title: Session E
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Adaptation des stratégies des solveurs SAT CDCL aux solveurs PB natifs
+          authors: Daniel Le Berre et Romain Wallon
+#          link:
+        - title: Génération d'ensembles de modèles explorables par couplage de contraintes et de transformation de modèles
+          authors: Théo Le Calvar, Fabien Chhel, Frédéric Jouault, Frédéric Saubion et Eugene Syriani
+#          link:
+        - title: Génération de donjons à l'aide de la programmation par contraintes
+          authors: Gael Glorian, Adrien Debesson, Sylvain Yvon-Paliot et Laurent Simon
+#          link:
+        - title: Une approche basée sur l'ASP pour détecter des attracteurs dans les réseaux booléens circulaires
+          authors: Tarek Khaled et Belaid Benhamou
+#          link:
+    - time: 17h20-17h45
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 17h45-18h45
+      title: "Débats \"pré-apéro\""
+      room: Zoom
+    - time: 18h45-19h45
+      title: Apéro
+      room: Gather Town
 
 - day: Jeudi 24 juin
   sessions:
-  - time: 9h-11h
-    title: Sessions
-    room: Amphi 200
-  - time: 11h-12h
-    title: Exposé invité
-    room: Amphi 200
-  - time: 14h-16h
-    title: Sessions
-    room: Amphi 200
-  - time: 16h-18h
-    title: Visite de Nice
-    notinform: true
-  - time: 20h-23h
-    title: Gala
-    notinform: true
+    - time: 13h30-14h
+      title: Café
+      room: Gather Town
+    - time: 14h-14h50
+      title: Session F (Jeunes chercheurs)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Raffiner l'heuristique CHS à l'aide de bandits
+          authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
+#          link:
+        - title: Perturbation des heuristiques de branchement dans la résolution de contraintes
+          authors: Hugues Wattez, Frederic Koriche et Anastasia Paparrizou
+#          link:
+        - title: Focus sur les heuristiques basées sur la pondération de contraintes
+          authors: Hugues Wattez, Frederic Koriche, Christophe Lecoutre, Anastasia Paparrizou et Sebastien Tabary
+#          link:
+    - time: 14h50-15h15
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 15h15-16h05
+      title: Session G (Jeunes chercheurs)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Tirage de solutions par ajout de contraintes tables aléatoires
+          authors: Mathieu Vavrille, Charlotte Truchet et Charles Prud'Homme
+#          link:
+        - title: "Metrics : Mission Expérimentations"
+          authors: Thibault Falque, Romain Wallon et Hugues Wattez
+#          link:
+        - title: A polynomial algorithm solving the 2-occurrences exact cover problem
+          authors: Nicolas Isoart et Jean-Charles Regin
+#          link:
+    - time: 16h05-16h30
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 16h30-17h20
+      title: Session H (Jeunes chercheurs)
+      room: Zoom
+#      chair: Toto
+      talks:
+        - title: Un bandit manchot pour combiner CHB et VSIDS
+          authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
+#          link:
+        - title: Des réfutations SAT aux réfutations Max-SAT
+          authors: Matthieu Py, Mohamed Sami Cherif et Djamal Habet
+#          link:
+        - title: Approche basée sur la Relaxation pour la Fouille de Motifs Fermés et Diversifiés
+          authors: Arnold Hien, Samir Loudni, Noureddine Aribi, Yahia Lebbah, Mohammed Laghzaoui, Abdelkader Ouali et Albrecht Zimmermann
+#          link:
+    - time: 17h20-17h45
+      title: Pause-Poster
+      room: Zoom
+      notinform: true
+    - time: 17h45-18h30
+      title: AG AFPC
+      info: Remise du prix jeune chercheur
+      room: Zoom
+    - time: 18h30-19h30
+      title: Apéro
+      room: Gather Town
 
-- day: Vendredi 25 juin
-  sessions:
-  - time: 9h-11h
-    title: Sessions
-    room: Amphi 200
-  - time: 11h-12h
-    title: Exposé invité
-    room: Amphi 200
-  - time: 12h-14h
-    title: Panier repas
-    notinform: true

@@ -5,15 +5,15 @@
 
 
 <div class="programme">
-    <div class="days">
+    <ul class="days">
         {%- for agenda in program -%}
             {%- if forloop.index == 1 %}
-        <div class="programme-jour active">{{ agenda.day }}</div>
+        <li class="programme-jour active">{{ agenda.day }}</li>
             {%- else %}
-        <div class="programme-jour">{{ agenda.day }}</div>
+        <li class="programme-jour">{{ agenda.day }}</li>
             {%- endif %}
         {%- endfor %}
-    </div>
+    </ul>
 
     {%- for agenda in program -%}
         {%- if forloop.index == 1 %}
@@ -40,8 +40,13 @@
                         <ul class = "talks">
                             {%- for talk in session.talks %}
                             <li>
+                                {%- if talk.link %}
                                 <a href="{{ talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
                                 <session-talk>Par {{ talk.authors }}.</session-talk>
+                                {%- else %}
+                                <session-talk-title>"{{ talk.title }}"</session-talk-title>
+                                <session-talk>Par {{ talk.authors }}.</session-talk>
+                                {%- endif %}
                             </li>
                             {%- endfor %}
                         </ul>
