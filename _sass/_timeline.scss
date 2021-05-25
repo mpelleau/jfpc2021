@@ -73,11 +73,10 @@
             left: 50%;
             text-align: center;
             background-color: $circle-color;
-            color: $circle-color;
-            width: 12px;
-            height: 12px;
+            width: 16px;
+            height: 16px;
             line-height: 12px;
-            margin-left: -6px;
+            margin-left: -8px;
             border: 2px solid $circle-border-color;
             /* border: 2px solid white; */
             border-top-right-radius: 50%;
@@ -85,6 +84,20 @@
             border-bottom-right-radius: 50%;
             border-bottom-left-radius: 50%;
             z-index: 1;
+            a {
+                color: white;
+                font-size: .8em;
+                &:hover {
+                    color: white;
+                }
+            }
+            /*&::after {
+                color: white;
+                font-size: .8em;
+                font-family: 'FontAwesome';
+                content: "\f062";
+                margin-top: -8px;
+            }*/
         }
     }
 }

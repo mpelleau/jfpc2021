@@ -39,6 +39,15 @@
     }
 }
 
+.anchor { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: 101px; 
+    margin-top: -101px;
+}
+
 .talks {
     li {
         position: relative;
@@ -127,12 +136,19 @@ table {
         background-color: white;
         border: 2px solid white !important;
         padding: 0 !important;
+        a {
+            color: $primary-color !important;
+            text-decoration: unset;
+            &:hover {
+                color: $primary-color !important;
+            }
+        }
     }
     tr {
         height: 1.5em !important;
         &:hover{
-            color: red !important;
             .hour {
+                color: red !important;
                 font-weight: bolder;
             }
         }
@@ -142,27 +158,27 @@ table {
     }
     .hour {
         vertical-align: top;
-        font-size: 14px;
+        font-size: 0.8em;
     }
     .break {
         background-color: $line-color;
     }
-    .invite {
+    .invite, .invite a, .invite a:hover {
         background-color: $secondary-color;
-        color: white;
+        color: white !important;
         font-weight: bolder;
     }
     .session-young {
         background-color: #3ec8ff;
     }
     .session {
-        background-color: #00fff2;
-    }
-    .coffee {
-        background-color: #cd9afd;
+        background-color: #4BC6B9;
     }
     .ag {
         background-color: #9afd9a;
+    }
+    .coffee {
+        background-color: #ffefd3;
     }
     .apero {
         background-color: #ffc167;

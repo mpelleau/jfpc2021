@@ -6,7 +6,8 @@ title: Programme
 published: true
 ---
 
-## Programme détaillé
+<span class="anchor" id="programme-détaillé"></span>
+<h2>Programme détaillé</h2>
 
 <table>
   <tbody>
@@ -26,7 +27,7 @@ published: true
     </tr>
     <tr>
       <td class="hour">11:10</td>
-      <td rowspan="4" class="invite">Exposé invité<br>Thomas Schiex (INRAE, Toulouse)</td>
+      <td rowspan="4" class="invite"><a href="#invite1" name="Mardi 22 juin">Exposé invité<br>Thomas Schiex (INRAE, Toulouse)</a></td>
       <td class="hour">11:10</td>
     </tr>
     <tr></tr>
@@ -50,9 +51,9 @@ published: true
     <tr></tr>
     <tr>
       <td class="hour">14:00</td>
-      <td rowspan="3" class="session-young">Session A (Jeunes Chercheurs)</td>
-      <td rowspan="4" class="invite">Exposé invité<br>Claude-Guy Quimper</td>
-      <td rowspan="3" class="session-young">Session F (Jeunes chercheurs)</td>
+      <td rowspan="3" class="session-young"><a href="#sessionA" name="Mardi 22 juin">Session A (Jeunes Chercheurs)</a></td>
+      <td rowspan="4" class="invite"><a href="#invite2" name="Mercredi 23 juin">Exposé invité<br>Claude-Guy Quimper</a></td>
+      <td rowspan="3" class="session-young"><a href="#sessionF" name="Jeudi 24 juin">Session F (Jeunes chercheurs)</a></td>
       <td class="hour">14:00</td>
     </tr>
     <tr></tr>
@@ -69,9 +70,9 @@ published: true
     </tr>
     <tr>
       <td class="hour">15:15</td>
-      <td rowspan="2" class="session">Session B (Exposés courts)</td>
-      <td rowspan="2" class="session">Session D (exposés courts)</td>
-      <td rowspan="3" class="session-young">Session G (Jeunes chercheurs)</td>
+      <td rowspan="2" class="session"><a href="#sessionB" name="Mardi 22 juin">Session B (Exposés courts)</a></td>
+      <td rowspan="2" class="session"><a href="#sessionD" name="Mercredi 23 juin">Session D (Exposés courts)</a></td>
+      <td rowspan="3" class="session-young"><a href="#sessionG" name="Jeudi 24 juin">Session G (Jeunes chercheurs)</a></td>
       <td class="hour">15:15</td>
     </tr>
     <tr></tr>
@@ -88,16 +89,15 @@ published: true
     </tr>
     <tr>
       <td class="hour">16:15</td>
-      <td rowspan="6" class="session-young">Session C (Jeunes chercheurs)</td>
-      <td rowspan="5" class="session">Session E</td>
+      <td rowspan="5" class="session-young"><a href="#sessionC" name="Mardi 22 juin">Session C (Jeunes chercheurs)</a></td>
+      <td rowspan="4" class="session"><a href="#sessionE" name="Mercredi 23 juin">Session E</a></td>
       <td class="hour">16:15</td>
     </tr>
     <tr>
       <td class="hour">16:30</td>
-      <td rowspan="6" class="session-young">Session H (Jeunes chercheurs)</td>
+      <td rowspan="5" class="session-young"><a href="#sessionH" name="Jeudi 24 juin">Session H (Jeunes chercheurs)</a></td>
       <td class="hour">16:30</td>
     </tr>
-    <tr></tr>
     <tr></tr>
     <tr></tr>
     <tr>
@@ -133,37 +133,5 @@ published: true
     <tr></tr>
   </tbody>
 </table>
-
-<!-- 
-|       |          mardi 22 juin          |       |      mercredi 23 juin      |       |          jeudi 24 juin         |
-|-------|:-------------------------------:|:-----:|:--------------------------:|:-----:|:------------------------------:|
-| 11:00 |             Acceuil             |       |                            |       |                                |
-| 11:10 |       Conférence   invité       |       |                            |       |                                |
-|       | Thomas Schiex (INRAE, Toulouse) |       |                            |       |                                |
-|       |                                 |       |                            |       |                                |
-|       |                                 |       |                            |       |                                |
-| 13:30 |        Café - Gather Town       | 13:30 |     Café - Gather Town     | 13:30 |       Café - Gather Town       |
-|       |                                 |       |                            |       |                                |
-| 14:00 |  Session A (Jeunes Chercheurs)  | 14:00 |     Conférence   invité    | 14:00 |  Session F (Jeunes chercheurs) |
-|       |                                 |       |     Claude-Guy Quimper     |       |                                |
-|       |                                 |       |                            |       |                                |
-| 14:50 |          PAUSE / Poster         |       |                            | 14:50 |         PAUSE / Poster         |
-| 15:00 |                                 |       |            pause           |       |                                |
-| 15:15 |    Session B (Exposés courts)   | 15:15 | Session D (exposés courts) | 15:15 |  Session G (Jeunes chercheurs) |
-|       |                                 |       |                            |       |                                |
-| 15:45 |          PAUSE / Poster         | 15:45 |       PAUSE / Poster       |       |                                |
-| 16:05 |                                 |       |                            | 16:05 |         PAUSE / Poster         |
-| 16:15 |  Session C (Jeunes chercheurs)  | 16:15 |          Session E         |       |                                |
-| 16:30 |                                 |       |                            | 16:30 |  Session H (Jeunes chercheurs) |
-|       |                                 |       |                            |       |                                |
-| 17:05 |          PAUSE / Poster         |       |                            |       |                                |
-|       |                                 |       |                            |       |                                |
-| 17:20 |                                 | 17:20 |       PAUSE / Poster       | 17:20 |         PAUSE / Poster         |
-| 17:30 |       Débats « pré-apéro »      |       |                            |       |                                |
-| 17:45 |                                 | 17:45 |    Débats « pré-apéro »    | 17:45 |          AG de l'AFPC          |
-|       |                                 |       |                            |       | remise du prix jeune chercheur |
-|       |                                 |       |                            |       |                                |
-| 18:30 |       Apéro - Gather Town       |       |                            | 18:30 |       Apéro - Gather Town      |
-| 18:45 |                                 | 18:45 |     Apéro - Gather Town    |       |                                | -->
 
 {% include programme program = site.data.programme %}

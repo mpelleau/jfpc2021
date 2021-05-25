@@ -8,9 +8,9 @@
     <ul class="days">
         {%- for agenda in program -%}
             {%- if forloop.index == 1 %}
-        <li class="programme-jour active">{{ agenda.day }}</li>
+        <li class="programme-jour active" name="{{ agenda.day }}">{{ agenda.day }}</li>
             {%- else %}
-        <li class="programme-jour">{{ agenda.day }}</li>
+        <li class="programme-jour" name="{{ agenda.day }}">{{ agenda.day }}</li>
             {%- endif %}
         {%- endfor %}
     </ul>
@@ -29,8 +29,9 @@
                 {%- else %}
             <li class="timeline-inverted">
                 {%- endif %}
-                <div class="tl-circ"></div>
+                <div class="tl-circ"><a href="#programme-détaillé"><i class="fas fa-arrow-up"></i></a></div>
                 <div class="timeline-panel">
+                    {% if session.id %}<span class="anchor" id="{{ session.id }}"></span>{% endif %}
                     <div class="tl-heading">
                         <session-title>{{ session.title }}</session-title>
                         {% if session.room %}<session-room>{{ session.room }}</session-room>{% endif %}
