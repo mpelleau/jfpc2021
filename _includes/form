@@ -10,7 +10,7 @@
         {% for field in site.data.inscription %}
         <div class="form-group" id={{ field.id | append:"_div" }} {% if field.hide %}style="display: none;"{% endif %}>
             <label class="col-md-4 control-label{% if field.required %} required{% endif %}">{{ field.champ }}</label>  
-            <div class="col-md-4 inputGroupContainer,input-group">
+            <div class="col-md-6 inputGroupContainer,input-group">
             {%- assign info = field.champ %}
             {%- if field.info %}
                 {%- assign info = field.info %}
@@ -33,9 +33,10 @@
         </div>
         {% endfor %}
         
+        {% comment %}
         <div class="form-group" id="sessions">
             <label class="col-md-4 control-label">À quelles sessions pensez-vous participer ?</label>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 {%- for agenda in site.data.programme %}
                 <day>{{ agenda.day }}</day>
                     {%- for session in agenda.sessions -%}
@@ -48,6 +49,7 @@
                 {% endfor %}
             </div>
         </div>
+        {% endcomment %}
 
         <!-- Pour les bots -->
         <input type="text" name="gotcha" style="display:none" />
@@ -55,7 +57,7 @@
         <!-- Button -->
         <div class="form-group">
             <label class="col-md-4 control-label"></label>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <button type="submit" class="btn" >S'inscrire <i class="fas fa-paper-plane"></i></button>
             </div>
         </div>

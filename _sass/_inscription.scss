@@ -26,6 +26,28 @@ error {
     color: $alert-color;
 }
 
+textarea.form-control {
+    min-height: 2.5em;
+}
+
+@media (max-width: 1440px) {
+    textarea.form-control {
+        min-height: 5.5em;
+    }
+}
+
+@media (max-width: 1024px) {
+    textarea.form-control {
+        min-height: 8.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    textarea.form-control {
+        min-height: 5.5em;
+    }
+}
+
 .btn {
     color: white;
     background-color: $tertiary-color;
