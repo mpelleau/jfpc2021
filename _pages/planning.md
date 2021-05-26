@@ -6,8 +6,9 @@ title: Programme
 published: true
 ---
 
-<span class="anchor" id="programme-détaillé"></span>
-<h2>Programme détaillé</h2>
+## Programme détaillé
+
+<span class="anchor" id="programme"></span>
 
 <table>
   <tbody>
