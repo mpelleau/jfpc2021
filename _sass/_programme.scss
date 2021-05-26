@@ -9,7 +9,7 @@
         width: 100%;
         .programme-jour {
             display: inline-block;
-            width: 15%;
+            width: 29%;
             cursor: pointer;
             background: white;
             color: $light-color;
@@ -185,5 +185,11 @@ table {
     }
     .debat {
         background-color: #ffe867;
+    }
+}
+
+@media (max-width: 1024px) {
+    .programme-jour {
+        width: 28% !important;
     }
 }
