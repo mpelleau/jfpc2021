@@ -90,6 +90,12 @@
             display: table-cell;
             padding: 0px 20px;
             vertical-align: top;
+            .img-responsive {
+                max-width: 80vh;
+                height: auto;
+                max-height: 35vw;
+                width: auto;
+            }
         }
     }
 }

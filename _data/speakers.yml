@@ -1,29 +1,20 @@
-- name: Name
-  firstname: Firstname
+- name: Schiex
+  firstname: Thomas
   id: Invité1
-  title: Position
-  img: TBD.png
-  thumbnail: TBD.png
-  alt: Picture of TBD
+  title: INRAE, Toulouse
+  img: Thomas-D-Schiex.jpg
+  thumbnail: Thomas-D-Schiex-thumb.jpg
+  alt: Image de Thomas Schiex
   topic: Topic
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas semper suscipit. Praesent nec orci dictum, volutpat ligula feugiat, tincidunt sapien. Donec sollicitudin diam nec ultricies tristique. Phasellus turpis libero, fermentum at risus quis, luctus vehicula purus. Cras fringilla nisl id justo vulputate, ac semper tellus pretium. Aliquam bibendum ac est at rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras a dui in ipsum tristique suscipit sit amet eu quam. Aliquam consequat justo vitae iaculis pellentesque. Quisque eget erat ac lorem ullamcorper hendrerit sit amet tempor ipsum. Fusce eu orci augue. Phasellus nec auctor lacus, sit amet condimentum augue. Donec volutpat accumsan elit. Suspendisse ac enim placerat, porta odio sit amet, tristique sem.
+  description: Description
 
-- name: Name
-  firstname: Firstname
+- name: Quimper
+  firstname: Claude-Guy
   id: Invité2
-  title: Position
-  img: TBD.png
-  thumbnail: TBD.png
+  title: Université de Laval, Québec
+  img: Claude-Guy-Quimper.jpg
+  thumbnail: Claude-Guy-Quimper-thumb.jpg
   alt: Picture of TBD
   topic: Topic
-  description: More Info
-
-- name: Name
-  firstname: Firstname
-  id: Invité3
-  title: Position
-  img: TBD.png
-  thumbnail: TBD.png
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  description: Description
+  
