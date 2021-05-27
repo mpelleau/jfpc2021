@@ -8,6 +8,8 @@ published: true
 
 ## Programme détaillé
 
+Le programme détaillé peut-être téléchargé [au format `.ics`]({% include link-asset asset="JFPC2021.ics" %}).
+
 <span class="anchor" id="programme"></span>
 
 <table>
@@ -90,25 +92,31 @@ published: true
     </tr>
     <tr>
       <td class="hour">16:15</td>
-      <td rowspan="5" class="session-young"><a href="#sessionC" name="Mardi 22 juin">Session C (Jeunes chercheurs)</a></td>
+      <td rowspan="3" class="session-young"><a href="#sessionC" name="Mardi 22 juin">Session C (Jeunes chercheurs)</a></td>
       <td rowspan="4" class="session"><a href="#sessionE" name="Mercredi 23 juin">Session E</a></td>
       <td class="hour">16:15</td>
     </tr>
     <tr>
       <td class="hour">16:30</td>
-      <td rowspan="5" class="session-young"><a href="#sessionH" name="Jeudi 24 juin">Session H (Jeunes chercheurs)</a></td>
+      <td rowspan="3" class="session-young"><a href="#sessionH" name="Jeudi 24 juin">Session H (Jeunes chercheurs)</a></td>
       <td class="hour">16:30</td>
     </tr>
     <tr></tr>
-    <tr></tr>
+    <tr>
+      <td class="hour">17:05</td>
+      <td rowspan="2" class="break">PAUSE / Poster</td>
+      <td class="hour">17:05</td>
+    </tr>
     <tr>
       <td class="hour">17:20</td>
+      <td rowspan="2" class="break">PAUSE / Poster</td>
       <td rowspan="2" class="break">PAUSE / Poster</td>
       <td class="hour">17:20</td>
     </tr>
     <tr>
       <td class="hour">17:30</td>
       <td rowspan="4" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td class="hour">17:30</td>
     </tr>
     <tr>
       <td class="hour">17:45</td>

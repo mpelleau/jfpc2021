@@ -7,21 +7,30 @@
       institution: Université Côte d'Azur
       website: http://i3s.unice.fr/~mpelleau/
   autre:
+    - name: Elisabetta De Maria
+      institution: Université Côte d'Azur
+      website: https://www.i3s.unice.fr/~edemaria/index.html
     - name: Arthur Finkelstein
       institution: Instant System, Université Côte d'Azur
     - name: Rémy Garcia
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~garciar/
+    - name: Loïc Germerie
+      institution: Université Côte d'Azur
     - name: Nicolas Isoart
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~isoart/
+    - name: Victor Jung
+      institution: Université Côte d'Azur
     - name: Laetitia Laversa
       institution: Université Côte d'Azur
+      website: https://www.i3s.unice.fr/~laversa/
     - name: Jean-Charles Régin
       institution: Université Côte d'Azur
       website: http://www.constraint-programming.com/people/regin/
     - name: Sara Riva
       institution: Université Côte d'Azur
+      website: https://www.i3s.unice.fr/~riva/
 
 - type: "scientifique"
   presidence:
