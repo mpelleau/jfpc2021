@@ -60,7 +60,7 @@ $(document).ready(function() {
                     sendmessage += "<br><br>Ainsi que le complément d'adresse suivant :<br>" + comp.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
                 }
             }
-            sendmessage += "<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
+            sendmessage += "<br><br>Votre demande sera traitée dans les meilleurs délais.<br><br>Vous recevrez les codes de connexion et liens zooms quelques jours avant le début de la conférence.<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
             var sessions = [];
             checks = ""
             $("div[id='sessions'] input:checkbox").each(function(){
@@ -71,7 +71,7 @@ $(document).ready(function() {
                 }
             })
             header = "Prénom,Nom,Email,Institution,Fonction,Adresse,Complément" + sessions + "\n";
-            datamessage = fname + "," + lname + "," + email + "," + institution + "," + fonction + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
+            datamessage = fname + "," + lname + "," + email + ",\"" + institution + "\"," + fonction + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
             Email.send({
                 SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba",
                 To : email,
