@@ -14,6 +14,7 @@ $(document).ready(function() {
         var institution = $.trim($("#institution").val());
         var adresse = $.trim($("#adresse").val());
         var comp = $.trim($("#comp").val());
+        var fonction = $("#fonction").val();
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         var isbot = $.trim($("#gotcha").val());
 
@@ -69,8 +70,8 @@ $(document).ready(function() {
                     checks += "1";
                 }
             })
-            header = "Prénom,Nom,Email,Institution,Adresse,Complément" + sessions + "\n";
-            datamessage = fname + "," + lname + "," + email + "," + institution + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
+            header = "Prénom,Nom,Email,Institution,Fonction,Adresse,Complément" + sessions + "\n";
+            datamessage = fname + "," + lname + "," + email + "," + institution + "," + fonction + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
             Email.send({
                 SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba",
                 To : email,
