@@ -61,17 +61,8 @@ $(document).ready(function() {
                 }
             }
             sendmessage += "<br><br>Votre demande sera traitée dans les meilleurs délais.<br><br>Vous recevrez les codes de connexion et liens zooms quelques jours avant le début de la conférence.<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
-            var sessions = [];
-            checks = ""
-            $("div[id='sessions'] input:checkbox").each(function(){
-                sessions.push($(this).attr('value'));
-                checks += ",";
-                if($(this).prop("checked")) {
-                    checks += "1";
-                }
-            })
-            header = "Prénom,Nom,Email,Institution,Fonction,Adresse,Complément" + sessions + "\n";
-            datamessage = fname + "," + lname + "," + email + ",\"" + institution + "\"," + fonction + ",\"" + adresse + "\",\"" + comp + "\"" + checks + "\n";
+            header = "Prénom,Nom,Email,Institution,Fonction,Adresse,Complément\n";
+            datamessage = "\"" + fname + "\",\"" + lname + "\",\"" + email + "\",\"" + institution + "\"," + fonction + ",\"" + adresse + "\",\"" + comp + "\"\n";
             Email.send({
                 SecureToken : "0c6ae271-b4ef-4ee5-ac71-85be7d0bf7ba",
                 To : email,
