@@ -17,6 +17,12 @@
             {%- endif %}
             {%- if field.text %}
                 <textarea id="{{ field.id }}" placeholder="{{ info }}" class="form-control"></textarea>
+            {%- elsif field.choices %}
+                <select id="{{ field.id }}">
+                {% for choice in field.choices %}
+                    <option value="{{ choice }}">{{ choice }}</option>
+                {% endfor %}
+                </select>
             {%- else %}
                 <input  id="{{ field.id }}" placeholder="{{ info }}" class="form-control" type="text">
             {%- endif %}
