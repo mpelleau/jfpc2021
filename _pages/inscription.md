@@ -11,7 +11,8 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 
 ## Inscription en ligne
 
-Les inscriptions ne sont pas encore ouvertes.
+Pour vous inscrire, veuillez remplir le formulaire suivant :
+{% include form %}
 
 <!--
 ## Tarifs (provisoires)
