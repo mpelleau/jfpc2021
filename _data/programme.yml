@@ -7,6 +7,7 @@
       title: Exposé invité
       author: Thomas schiex
       id: invite1
+      titre: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
 #      chair: Toto
       room: Zoom
     - time: 13h30-14h
@@ -88,6 +89,7 @@
       title: Exposé invité
       author: Claude-Guy Quimper (Université de Laval, Québec)
       id: invite2
+      titre: "Ordonnancement sous contraintes : de la théorie à la pratique"
       room: Zoom
     - time: 15h-15h15
       title: Pause
@@ -148,7 +150,7 @@
       title: Café
       room: Gather Town
       notinform: true
-    - time: 14h-14h50
+    - time: 14h-15h05
       title: Session F (Jeunes chercheurs)
       id: sessionF
       room: Zoom
@@ -163,53 +165,40 @@
         - title: Focus sur les heuristiques basées sur la pondération de contraintes
           authors: Hugues Wattez, Frederic Koriche, Christophe Lecoutre, Anastasia Paparrizou et Sebastien Tabary
 #          link:
-    - time: 14h50-15h15
+        - title: Tirage de solutions par ajout de contraintes tables aléatoires
+          authors: Mathieu Vavrille, Charlotte Truchet et Charles Prud'Homme
+#          link:
+    - time: 15h05-15h35
       title: Pause-Poster
       room: Zoom
       notinform: true
-    - time: 15h15-16h05
+    - time: 15h35-16h40
       title: Session G (Jeunes chercheurs)
       id: sessionG
       room: Zoom
 #      chair: Toto
       talks:
-        - title: Tirage de solutions par ajout de contraintes tables aléatoires
-          authors: Mathieu Vavrille, Charlotte Truchet et Charles Prud'Homme
-#          link:
         - title: "Metrics : Mission Expérimentations"
           authors: Thibault Falque, Romain Wallon et Hugues Wattez
 #          link:
-        - title: A polynomial algorithm solving the 2-occurrences exact cover problem
-          authors: Nicolas Isoart et Jean-Charles Regin
-#          link:
-    - time: 16h05-16h30
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 16h30-17h20
-      title: Session H (Jeunes chercheurs)
-      id: sessionH
-      room: Zoom
-#      chair: Toto
-      talks:
         - title: Un bandit manchot pour combiner CHB et VSIDS
           authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
 #          link:
         - title: Des réfutations SAT aux réfutations Max-SAT
           authors: Matthieu Py, Mohamed Sami Cherif et Djamal Habet
-#          link:
+  #          link:
         - title: Approche basée sur la Relaxation pour la Fouille de Motifs Fermés et Diversifiés
           authors: Arnold Hien, Samir Loudni, Noureddine Aribi, Yahia Lebbah, Mohammed Laghzaoui, Abdelkader Ouali et Albrecht Zimmermann
 #          link:
-    - time: 17h20-17h45
+    - time: 16h40-17h10
       title: Pause-Poster
       room: Zoom
       notinform: true
-    - time: 17h45-18h30
+    - time: 17h10-18h
       title: AG AFPC
       info: Remise du prix jeune chercheur
       room: Zoom
-    - time: 18h30-19h30
+    - time: 18h-19h
       title: Apéro
       room: Gather Town
       notinform: true

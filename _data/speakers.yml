@@ -4,9 +4,9 @@
   title: INRAE, Toulouse
   img: Thomas-D-Schiex.jpg
   thumbnail: Thomas-D-Schiex-thumb.jpg
-  alt: Image de Thomas Schiex
-  topic: Topic
-  description: Description
+  alt: Photo de Thomas Schiex
+  topic: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
+  #description: Description
 
 - name: Quimper
   firstname: Claude-Guy
@@ -14,7 +14,7 @@
   title: Université de Laval, Québec
   img: Claude-Guy-Quimper.jpg
   thumbnail: Claude-Guy-Quimper-thumb.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: Description
+  alt: Photo de Claude-Guy Quimper
+  topic: "Ordonnancement sous contraintes : de la théorie à la pratique"
+  #description: Description
   
