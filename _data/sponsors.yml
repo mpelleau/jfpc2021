@@ -23,10 +23,15 @@
   website: http://afpc.greyc.fr/web/
   alt: Association Française pour la Programmation par Contraintes
 
-- name: GDR RO
-  img: gdrro.png
-  website: http://gdrro.lip6.fr/
-  alt: GDR Recherche Opérationnelle
+- name: ACP
+  img: acp.png
+  website: https://www.a4cp.org/
+  alt: Association for Constraint Programming
+
+#- name: GDR RO
+#  img: gdrro.png
+#  website: http://gdrro.lip6.fr/
+#  alt: GDR Recherche Opérationnelle
 
 #- name: INRIA
 #  img: inria.png

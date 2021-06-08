@@ -6,7 +6,7 @@
   thumbnail: Thomas-D-Schiex-thumb.jpg
   alt: Photo de Thomas Schiex
   topic: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
-  #description: Description
+  description: "Les réseaux de contraintes sont structurés autour des notions de fonctions Booléennes (ou contraintes) et de leur cohérence. Si ces notions suffisent à modéliser et traiter de nombreux problèmes issus d'environnements très (circuits digitaux, logiciels) ou assez bien (ateliers d'assemblage) contrôlés, il est de plus en plus fréquent, dans des environnements moins contrôlés, de disposer de nombreuses informations numériques (coûts, temps, espace, énergie, probabilités), directement issues de mesures ou extraites de données par apprentissage automatique. Cela ouvre la voie à des modélisations plus réalistes et plus pertinentes. La présentation montrera comment les réseaux de fonctions de coût étendent les réseaux de contraintes en permettant de représenter et de répondre à des requêtes sur des fonctions numériques et logiques et comment la notion fondamentale de cohérence d'arc, une fois étendue aux fonctions numériques, permet aux solveurs de profiter de bornes efficaces et incrémentales. Proches de bornes issues de la programmation linéaire, elles fournissent des heuristiques de choix de valeurs informées qui guident la recherche. Dans les problèmes où les aspects numériques dominent les aspects purement logiques (contraintes), nous verrons que les gains en efficacité ainsi obtenus sont souvent écrasants. Au delà de l'efficacité, nous verrons aussi que cette capacité de traitement de fonctions numériques facilite la prise en compte d'informations extraites de données par apprentissage automatique. Le solveur (py)toulbar2 sera utilisé pour illustrer ces capacités."
 
 - name: Quimper
   firstname: Claude-Guy
@@ -16,5 +16,5 @@
   thumbnail: Claude-Guy-Quimper-thumb.jpg
   alt: Photo de Claude-Guy Quimper
   topic: "Ordonnancement sous contraintes : de la théorie à la pratique"
-  #description: Description
+  description: "Développer un système d'ordonnancement d'activités en contexte industriel requiert de surmonter plusieurs difficultés qui passent parfois inaperçues en contexte académique. Comment interagir avec les industriels ?  Quelle technologie utiliser ? Comment déboguer un modèle ? Comment passer à l'échelle ? Je tenterai de répondre à ces questions en m'appuyant sur l'expérience acquise lors de la réalisation du Refit Optimizer, un système d'aide à la planification des opérations de mise à niveau d'un navire développé chez Thales."
   
