@@ -31,9 +31,9 @@
 - champ: Adresse de livraison
   id: adresse
   text: true
-  info: "Les inscription réalisées avant le 10 juin pourront bénéficier d'un cadeau surprise (dans la limite des stocks)."
+#  info: "Les inscription réalisées avant le 10 juin pourront bénéficier d'un cadeau surprise (dans la limite des stocks)."
 - champ: "Complément d'adresse"
   id: "comp"
   text: true
   hide: true
-  info: "Mettez les informations les plus précises possibles (digicode, bâtiment, numéro de téléphone, ...) pour que le facteur vous trouve."
+#  info: "Mettez les informations les plus précises possibles (digicode, bâtiment, numéro de téléphone, ...) pour que le facteur vous trouve."
