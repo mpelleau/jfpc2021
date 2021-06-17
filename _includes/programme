@@ -46,7 +46,7 @@
                             {%- for talk in session.talks %}
                             <li>
                                 {%- if talk.link %}
-                                <a href="{{ talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
+                                <a href="{{ '/assets' | relative_url | append:page.url | append:talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
                                 <session-talk>Par {{ talk.authors }}.</session-talk>
                                 {%- else %}
                                 <session-talk-title>"{{ talk.title }}"</session-talk-title>
