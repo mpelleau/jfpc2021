@@ -15,8 +15,8 @@
       room: Gather Town
       notinform: true
     - time: 14h-14h50
-      title: Session A (Jeunes Chercheurs)
-      id: sessionA
+      title: A
+      type: Jeunes Chercheurs
       room: Zoom
 #      chair: Toto
       talks:
@@ -34,8 +34,8 @@
       room: Zoom
       notinform: true
     - time: 15h15-15h45
-      title: Session B (Exposés courts)
-      id: sessionB
+      title: B
+      type: Exposés courts
       room: Zoom
 #      chair: Toto
       talks:
@@ -53,8 +53,8 @@
       room: Zoom
       notinform: true
     - time: 16h15-17h05
-      title: Session C (Jeunes chercheurs)
-      id: sessionC
+      title: C
+      type: Jeunes chercheurs
       room: Zoom
 #      chair: Toto
       talks:
@@ -96,18 +96,18 @@
       room: Zoom
       notinform: true
     - time: 15h15-15h45
-      title: Session D (exposés courts)
-      id: sessionD
+      title: D
+      type: Exposés courts
       room: Zoom
 #      chair: Toto
       talks:
-        - title: "Segmented Tables: an Efficient Modeling Tool for Constraint Reasoning"
+        - title: "Tables segmentées : un outil de modélisation efficace pour le raisonnement par contraintes"
           authors: Gilles Audemard, Christophe Lecoutre et Mehdi Maamar
           link: JFPC_2021_final/JFPC_2021_D1.pdf
         - title: "Abacus : Un nouvel encodage pour SAT"
           authors: Claudia Vasconcellos-Gaete, Vincent Barichard et Frederic Lardeux
           link: JFPC_2021_final/JFPC_2021_D2.pdf
-        - title: Parallel Constraint Acquisition
+        - title: Parallélisme en acquisition de contraintes
           authors: Nadjib Lazaar
           link: JFPC_2021_final/JFPC_2021_D3.pdf
     - time: 15h45-16h15
@@ -115,8 +115,7 @@
       room: Zoom
       notinform: true
     - time: 16h15-17h20
-      title: Session E
-      id: sessionE
+      title: E
       room: Zoom
 #      chair: Toto
       talks:
@@ -151,8 +150,8 @@
       room: Gather Town
       notinform: true
     - time: 14h-15h05
-      title: Session F (Jeunes chercheurs)
-      id: sessionF
+      title: F
+      type: Jeunes chercheurs
       room: Zoom
 #      chair: Toto
       talks:
@@ -173,8 +172,8 @@
       room: Zoom
       notinform: true
     - time: 15h35-16h40
-      title: Session G (Jeunes chercheurs)
-      id: sessionG
+      title: G
+      type: Jeunes chercheurs
       room: Zoom
 #      chair: Toto
       talks:

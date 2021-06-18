@@ -31,9 +31,13 @@
                 {%- endif %}
                 <div class="tl-circ"><a href="#programme"><i class="fas fa-chevron-circle-up fa-2x"></i></a></div>
                 <div class="timeline-panel">
-                    {% if session.id %}<span class="anchor" id="{{ session.id }}"></span>{% endif %}
+                    {% if session.talks %}<span class="anchor" id="session{{ session.title }}"></span>
+                    {% elsif session.id %}<span class="anchor" id="{{ session.id }}"></span>
+                    {% endif %}
                     <div class="tl-heading">
-                        <session-title>{{ session.title }}</session-title>
+                        {% if session.talks %}<session-title>Session {{ session.title }}{% if session.type %} ({{ session.type }}){% endif %}</session-title>
+                        {% else %}<session-title>{{ session.title }}</session-title>
+                        {% endif %}
                         {% if session.room %}<session-room>{{ session.room }}</session-room>{% endif %}
                         {% if session.author %}<session-author>{{ session.author }}</session-author>{% endif %}
                         {% if session.chair %}<session-chair>Animée par <session-chair-name>{{ session.chair }}</session-chair-name></session-chair>{% endif %}
@@ -42,9 +46,10 @@
                         <session-talk-title>"{{ session.titre }}"</session-talk-title>
                         {%- endif %}
                         {%- if session.talks %}
-                        <ul class = "talks">
+                        <dl class = "talks">
                             {%- for talk in session.talks %}
-                            <li>
+                            <dt>{{ session.title }}-{{ forloop.index }}</dt>
+                            <dd>
                                 {%- if talk.link %}
                                 <a href="{{ '/assets' | relative_url | append:page.url | append:talk.link }}"><session-talk-title>"{{ talk.title }}"</session-talk-title></a>
                                 <session-talk>Par {{ talk.authors }}.</session-talk>
@@ -52,9 +57,9 @@
                                 <session-talk-title>"{{ talk.title }}"</session-talk-title>
                                 <session-talk>Par {{ talk.authors }}.</session-talk>
                                 {%- endif %}
-                            </li>
+                            </dd>
                             {%- endfor %}
-                        </ul>
+                        </dl>
                         {%- endif %}
                     </div>
                 </div>
