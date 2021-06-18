@@ -119,17 +119,17 @@ BEGIN:VEVENT
 TRANSP:OPAQUE
 DTEND;TZID=Europe/Paris:20210623T154500
 UID:0p47u5rdq4merdao4jhp0mc7ps@google.com
-DTSTAMP:20210527T202038Z
-DESCRIPTION: - "Segmented Tables: an Efficient Modeling Tool for Constra
- int Reasoning"\nPar Gilles Audemard\, Christophe Lecoutre et Mehdi Maama
- r.\n - "Abacus : Un nouvel encodage pour SAT"\nPar Claudia Vasconcellos-
- Gaete\, Vincent Barichard et Frederic Lardeux.\n - "Parallel Constraint 
- Acquisition"\nPar Nadjib Lazaar.
+DTSTAMP:20210618T205333Z
+DESCRIPTION: - "Tables segmentées : un outil de modélisation efficace po
+ ur le raisonnement par contraintes"\nPar Gilles Audemard\, Christophe Le
+ coutre et Mehdi Maamar.\n - "Abacus : Un nouvel encodage pour SAT"\nPar 
+ Claudia Vasconcellos-Gaete\, Vincent Barichard et Frederic Lardeux.\n - 
+ "Parallélisme en acquisition de contraintes"\nPar Nadjib Lazaar.
 STATUS:CONFIRMED
 SEQUENCE:0
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 SUMMARY:Session D (Exposés courts)
-LAST-MODIFIED:20210527T202038Z
+LAST-MODIFIED:20210618T205333Z
 CREATED:20210527T200743Z
 DTSTART;TZID=Europe/Paris:20210623T151500
 END:VEVENT
@@ -341,21 +341,21 @@ BEGIN:VEVENT
 TRANSP:OPAQUE
 DTEND;TZID=Europe/Paris:20210624T150500
 UID:732555BD-B3CA-4052-87A9-C5383B4E498E
-DTSTAMP:20210604T195911Z
+DTSTAMP:20210618T205305Z
 DESCRIPTION: - "Raffiner l'heuristique CHS à l'aide de bandits"\nPar Moh
- amed Sami Cherif\, Djamal Habet et Cyril Terrioux.\n - "Perturbation des
-  heuristiques de branchement dans la résolution de contraintes"\nPar Hug
- ues Wattez\, Frederic Koriche et Anastasia Paparrizou.\n - "Focus sur le
- s heuristiques basées sur la pondération de contraintes"\nPar Hugues Wat
- tez\, Frederic Koriche\, Christophe Lecoutre\, Anastasia Paparrizou et S
- ebastien Tabary.\n - "Tirage de solutions par ajout de contraintes table
+ amed Sami Cherif\, Djamal Habet et Cyril Terrioux.\n - "Focus sur les he
+ uristiques basées sur la pondération de contraintes"\nPar Hugues Wattez\
+ , Frederic Koriche\, Christophe Lecoutre\, Anastasia Paparrizou et Sebas
+ tien Tabary.\n - "Perturbation des heuristiques de branchement dans la r
+ ésolution de contraintes"\nPar Hugues Wattez\, Frederic Koriche et Anast
+ asia Paparrizou.\n - "Tirage de solutions par ajout de contraintes table
  s aléatoires"\nPar Mathieu Vavrille\, Charlotte Truchet et Charles Prud'
  Homme.
 STATUS:CONFIRMED
 SEQUENCE:0
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 SUMMARY:Session F (Jeunes Chercheurs)
-LAST-MODIFIED:20210604T195911Z
+LAST-MODIFIED:20210618T205305Z
 CREATED:20210527T201528Z
 DTSTART;TZID=Europe/Paris:20210624T140000
 END:VEVENT
