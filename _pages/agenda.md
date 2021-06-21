@@ -113,7 +113,7 @@ Le programme détaillé peut-être téléchargé [au format `.ics`]({% include l
     </tr>
     <tr>
       <td class="hour">17:10</td>
-      <td rowspan="4" class="ag">AG de l’AFPC<br>remise du prix jeune chercheur</td>
+      <td rowspan="3" class="ag">AG de l’AFPC<br>remise du prix jeune chercheur</td>
       <td class="hour">17:10</td>
     </tr>
     <tr>
@@ -123,12 +123,13 @@ Le programme détaillé peut-être téléchargé [au format `.ics`]({% include l
     </tr>
     <tr>
       <td class="hour">17:30</td>
-      <td rowspan="4" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td rowspan="2" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
       <td class="hour">17:30</td>
     </tr>
     <tr>
       <td class="hour">17:45</td>
-      <td rowspan="4" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td rowspan="2" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td rowspan="4" class="apero">Clôture des journées</td>
       <td class="hour">17:45</td>
     </tr>
     <tr>
@@ -136,32 +137,26 @@ Le programme détaillé peut-être téléchargé [au format `.ics`]({% include l
       <td rowspan="4" class="apero">Apéro - Gather Town</td>
       <td class="hour">18:00</td>
     </tr>
+    <tr>
+      <td class="hour">18:15</td>
+      <td rowspan="4" class="apero">Apéro - Gather Town</td>
+      <td class="hour">18:15</td>
+    </tr>
     <tr></tr>
     <tr>
-      <td class="hour">18:30</td>
-      <td rowspan="4" class="apero">Apéro - Gather Town</td>
-      <td class="hour">18:30</td>
-    </tr>
-    <tr>
       <td class="hour">18:45</td>
-      <td rowspan="4" class="apero">Apéro - Gather Town</td>
-      <td class="hour">18:45</td>
-    </tr>
-    <tr>
-      <td class="hour">19:00</td>
       <td rowspan="4"></td>
+      <td class="hour">18:45</td>
+    </tr>
+    <tr>
+      <td class="hour">19:00</td>
+      <td rowspan="2"></td>
       <td class="hour">19:00</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td class="hour">19:30</td>
-      <td rowspan="2"></td>
-      <td class="hour">19:30</td>
-    </tr>
-    <tr>
-      <td class="hour">19:45</td>
+      <td class="hour">19:15</td>
       <td></td>
-      <td class="hour">19:45</td>
+      <td class="hour">19:15</td>
     </tr>
   </tbody>
 </table>
