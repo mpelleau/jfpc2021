@@ -28,7 +28,7 @@ Les actes de cette conférence seront rendus disponibles en accès ouvert : les 
 
 ## Grands axes du programme
 
-Plusieurs sessions thématiques et exposés invités, l'assemblée générale de lAFPC, et deux événements sociaux seront proposés.
+Plusieurs sessions thématiques et exposés invités, l'assemblée générale de l'AFPC, et deux événements sociaux seront proposés.
 Les sessions thématiques sont simplement des séries d'exposés correspondant aux articles acceptés par le comité de programme et qui seront publiés dans les actes de la conférence.
 Deux ou trois chercheurs renommés de la communauté francophones présentent leurs travaux lors des exposés invités.
 
