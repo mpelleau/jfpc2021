@@ -18,7 +18,7 @@
       title: A
       type: Jeunes Chercheurs
       room: Zoom
-#      chair: Toto
+      chair: Laurent Simon
       talks:
         - title: Ddo, un cadre générique et performant pour l’optimisation à base de diagrammes de décision
           authors: Xavier Gillard, Pierre Schaus et Vianney Coppé
@@ -37,7 +37,7 @@
       title: B
       type: Exposés courts
       room: Zoom
-#      chair: Toto
+      chair: Philippe Vismara
       talks:
         - title: Apprentissage d’arbres de décision optimaux grâce à la programmation par contrainte
           authors: Hélène Verhaeghe, Siegfried Nijssen, Gilles Pesant, Claude-Guy Quimper et Pierre Schaus
@@ -56,7 +56,7 @@
       title: C
       type: Jeunes chercheurs
       room: Zoom
-#      chair: Toto
+      chair: Marie Pelleau
       talks:
         - title: Utiliser la PPC pour générer des structures de benzénoïdes en chimie théorique
           authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et Adrien Varet
@@ -99,7 +99,7 @@
       title: D
       type: Exposés courts
       room: Zoom
-#      chair: Toto
+      chair: Philippe Vismara
       talks:
         - title: "Tables segmentées : un outil de modélisation efficace pour le raisonnement par contraintes"
           authors: Gilles Audemard, Christophe Lecoutre et Mehdi Maamar
@@ -117,7 +117,7 @@
     - time: 16h15-17h20
       title: E
       room: Zoom
-#      chair: Toto
+      chair: Frédéric Lardeux
       talks:
         - title: Adaptation des stratégies des solveurs SAT CDCL aux solveurs PB natifs
           authors: Daniel Le Berre et Romain Wallon
@@ -153,7 +153,7 @@
       title: F
       type: Jeunes chercheurs
       room: Zoom
-#      chair: Toto
+      chair: Arnaud Malapert
       talks:
         - title: Raffiner l'heuristique CHS à l'aide de bandits
           authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
@@ -175,7 +175,7 @@
       title: G
       type: Jeunes chercheurs
       room: Zoom
-#      chair: Toto
+      chair: Gilles Audemard
       talks:
         - title: "Metrics : Mission Expérimentations"
           authors: Thibault Falque, Romain Wallon et Hugues Wattez
