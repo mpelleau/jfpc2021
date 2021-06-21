@@ -6,9 +6,7 @@ title: Programme
 published: true
 ---
 
-## Programme détaillé
-
-Le programme détaillé peut-être téléchargé [au format `.ics`]({% include link-asset asset="JFPC2021.ics" %}).
+Le programme détaillé peut être téléchargé [au format `.ics`]({% include link-asset asset="JFPC2021.ics" %}).
 
 <span class="anchor" id="programme"></span>
 
