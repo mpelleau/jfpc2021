@@ -8,7 +8,7 @@
       author: Thomas schiex
       id: invite1
       titre: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
-#      chair: Toto
+      chair: Philippe Vismara
       room: Zoom
     - time: 13h30-14h
       title: Café
@@ -92,6 +92,7 @@
       author: Claude-Guy Quimper (Université de Laval, Québec)
       id: invite2
       titre: "Ordonnancement sous contraintes : de la théorie à la pratique"
+      chair: Christian Bessière
       room: Zoom
     - time: 15h-15h15
       title: Pause
