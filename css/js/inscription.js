@@ -60,7 +60,7 @@ $(document).ready(function() {
                     sendmessage += "<br><br>Ainsi que le complément d'adresse suivant :<br>" + comp.replaceAll(/(\r\n|\n|\r)/gm, "<br>"); + "<br>";
                 }
             }
-            sendmessage += "<br><br>Votre demande sera traitée dans les meilleurs délais.<br><br>Vous recevrez les codes de connexion et liens zooms quelques jours avant le début de la conférence.<br><br>À bientôt,<br>L'équipe des JFPC<br></html>";
+            sendmessage += "<br><br>Votre demande sera traitée dans les meilleurs délais.<br>Les informations de connexions se trouvent ici : https://www.i3s.unice.fr/jfpc_2021/connexions/<br><br><br>À tout bientôt,<br>L'équipe des JFPC<br></html>";
             header = "Prénom,Nom,Email,Institution,Fonction,Adresse,Complément\n";
             datamessage = "\"" + fname + "\",\"" + lname + "\",\"" + email + "\",\"" + institution + "\"," + fonction + ",\"" + adresse + "\",\"" + comp + "\"\n";
             Email.send({
