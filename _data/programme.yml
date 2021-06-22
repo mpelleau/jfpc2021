@@ -21,13 +21,13 @@
       chair: Laurent Simon
       talks:
         - title: Ddo, un cadre générique et performant pour l’optimisation à base de diagrammes de décision
-          authors: Xavier Gillard, Pierre Schaus et Vianney Coppé
+          authors: <b>Xavier Gillard</b>, Pierre Schaus et Vianney Coppé
           link: JFPC_2021_final/JFPC_2021_A1.pdf
         - title: Descente Agressive de la Borne en Optimisation sous Contraintes
-          authors: Thibault Falque, Christophe Lecoutre, Bertrand Mazure et Hugues Wattez
+          authors: <b>Thibault Falque</b>, Christophe Lecoutre, Bertrand Mazure et Hugues Wattez
           link: JFPC_2021_final/JFPC_2021_A2.pdf
         - title: Contrainte de sac-à-dos à choix multiples dans les réseaux de fonctions de coûts
-          authors: Pierre Montalbano, Simon de Givry et George Katsirelos
+          authors: <b>Pierre Montalbano</b>, Simon de Givry et George Katsirelos
           link: JFPC_2021_final/JFPC_2021_A3.pdf
     - time: 14h50-15h15
       title: Pause-Poster
@@ -40,13 +40,13 @@
       chair: Philippe Vismara
       talks:
         - title: Apprentissage d’arbres de décision optimaux grâce à la programmation par contrainte
-          authors: Hélène Verhaeghe, Siegfried Nijssen, Gilles Pesant, Claude-Guy Quimper et Pierre Schaus
+          authors: <b>Hélène Verhaeghe</b>, Siegfried Nijssen, Gilles Pesant, Claude-Guy Quimper et Pierre Schaus
           link: JFPC_2021_final/JFPC_2021_B1.pdf
         - title: Exploitation de l'apprentissage par renforcement avec la Programmation par Contraintes ou la Recherche Locale - Cas d'application dans l'industrie automobile
-          authors: Valentin Antuori, Emmanuel Hebrard, Marie-José Huguet, Siham Essodaigui et Alain Nguyen
+          authors: <b>Valentin Antuori</b>, Emmanuel Hebrard, Marie-José Huguet, Siham Essodaigui et Alain Nguyen
           link: JFPC_2021_final/JFPC_2021_B2.pdf
         - title: Un solveur générique par intervalles pour le CSP différentio-algébrique
-          authors: Simon Rohou, Abderahmane Bedouhene, Gilles Chabert, Alexandre Goldsztejn, Luc Jaulin, Bertrand Neveu, Victor Reyes et Gilles Trombettoni
+          authors: <b>Simon Rohou</b>, Abderahmane Bedouhene, Gilles Chabert, Alexandre Goldsztejn, Luc Jaulin, Bertrand Neveu, Victor Reyes et Gilles Trombettoni
           link: JFPC_2021_final/JFPC_2021_B3.pdf
     - time: 15h45-16h15
       title: Pause-Poster
@@ -59,13 +59,13 @@
       chair: Marie Pelleau
       talks:
         - title: Utiliser la PPC pour générer des structures de benzénoïdes en chimie théorique
-          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et Adrien Varet
+          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et <b>Adrien Varet</b>
           link: JFPC_2021_final/JFPC_2021_C1.pdf
         - title: Prise en compte de motifs et génération de structures de benzénoïdes
-          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et Adrien Varet
+          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et <b>Adrien Varet</b>
           link: JFPC_2021_final/JFPC_2021_C2.pdf
         - title: Stratégies de résolution anytime de problèmes de satisfaction de contraintes numériques
-          authors: Thomas Richard de Latour, Raphaël Chenouard et Laurent Granvilliers
+          authors: <b>Thomas Richard de Latour</b>, Raphaël Chenouard et Laurent Granvilliers
           link: JFPC_2021_final/JFPC_2021_C3.pdf
     - time: 17h05-17h30
       title: Pause-Poster
@@ -102,13 +102,13 @@
       chair: Philippe Vismara
       talks:
         - title: "Tables segmentées : un outil de modélisation efficace pour le raisonnement par contraintes"
-          authors: Gilles Audemard, Christophe Lecoutre et Mehdi Maamar
+          authors: <b>Gilles Audemard</b>, Christophe Lecoutre et Mehdi Maamar
           link: JFPC_2021_final/JFPC_2021_D1.pdf
         - title: "Abacus : Un nouvel encodage pour SAT"
-          authors: Claudia Vasconcellos-Gaete, Vincent Barichard et Frederic Lardeux
+          authors: <b>Claudia Vasconcellos-Gaete</b>, Vincent Barichard et Frederic Lardeux
           link: JFPC_2021_final/JFPC_2021_D2.pdf
         - title: Parallélisme en acquisition de contraintes
-          authors: Nadjib Lazaar
+          authors: <b>Nadjib Lazaar</b>
           link: JFPC_2021_final/JFPC_2021_D3.pdf
     - time: 15h45-16h15
       title: Pause-Poster
@@ -120,16 +120,16 @@
       chair: Frédéric Lardeux
       talks:
         - title: Adaptation des stratégies des solveurs SAT CDCL aux solveurs PB natifs
-          authors: Daniel Le Berre et Romain Wallon
+          authors: <b>Daniel Le Berre</b> et Romain Wallon
           link: JFPC_2021_final/JFPC_2021_E1.pdf
         - title: Génération d'ensembles de modèles explorables par couplage de contraintes et de transformation de modèles
-          authors: Théo Le Calvar, Fabien Chhel, Frédéric Jouault, Frédéric Saubion et Eugene Syriani
+          authors: <b>Théo Le Calvar</b>, Fabien Chhel, Frédéric Jouault, Frédéric Saubion et Eugene Syriani
           link: JFPC_2021_final/JFPC_2021_E2.pdf
         - title: Génération de donjons à l'aide de la programmation par contraintes
-          authors: Gael Glorian, Adrien Debesson, Sylvain Yvon-Paliot et Laurent Simon
+          authors: <b>Gael Glorian</b>, Adrien Debesson, Sylvain Yvon-Paliot et Laurent Simon
           link: JFPC_2021_final/JFPC_2021_E3.pdf
         - title: Une approche basée sur l'ASP pour détecter des attracteurs dans les réseaux booléens circulaires
-          authors: Tarek Khaled et Belaid Benhamou
+          authors: <b>Tarek Khaled</b> et Belaid Benhamou
           link: JFPC_2021_final/JFPC_2021_E4.pdf
     - time: 17h20-17h45
       title: Pause-Poster
@@ -156,16 +156,16 @@
       chair: Arnaud Malapert
       talks:
         - title: Raffiner l'heuristique CHS à l'aide de bandits
-          authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
+          authors: <b>Mohamed Sami Cherif</b>, Djamal Habet et Cyril Terrioux
           link: JFPC_2021_final/JFPC_2021_F1.pdf
         - title: Focus sur les heuristiques basées sur la pondération de contraintes
-          authors: Hugues Wattez, Frederic Koriche, Christophe Lecoutre, Anastasia Paparrizou et Sebastien Tabary
+          authors: <b>Hugues Wattez</b>, Frederic Koriche, Christophe Lecoutre, Anastasia Paparrizou et Sebastien Tabary
           link: JFPC_2021_final/JFPC_2021_F2.pdf
         - title: Perturbation des heuristiques de branchement dans la résolution de contraintes
-          authors: Hugues Wattez, Frederic Koriche et Anastasia Paparrizou
+          authors: <b>Hugues Wattez</b>, Frederic Koriche et Anastasia Paparrizou
           link: JFPC_2021_final/JFPC_2021_F3.pdf
         - title: Tirage de solutions par ajout de contraintes tables aléatoires
-          authors: Mathieu Vavrille, Charlotte Truchet et Charles Prud'Homme
+          authors: <b>Mathieu Vavrille</b>, Charlotte Truchet et Charles Prud'Homme
           link: JFPC_2021_final/JFPC_2021_F4.pdf
     - time: 15h05-15h35
       title: Pause-Poster
@@ -178,16 +178,16 @@
       chair: Gilles Audemard
       talks:
         - title: "Metrics : Mission Expérimentations"
-          authors: Thibault Falque, Romain Wallon et Hugues Wattez
+          authors: <b>Thibault Falque</b>, Romain Wallon et Hugues Wattez
           link: JFPC_2021_final/JFPC_2021_G1.pdf
         - title: Un bandit manchot pour combiner CHB et VSIDS
-          authors: Mohamed Sami Cherif, Djamal Habet et Cyril Terrioux
+          authors: <b>Mohamed Sami Cherif</b>, Djamal Habet et Cyril Terrioux
           link: JFPC_2021_final/JFPC_2021_G2.pdf
         - title: Des réfutations SAT aux réfutations Max-SAT
-          authors: Matthieu Py, Mohamed Sami Cherif et Djamal Habet
+          authors: <b>Matthieu Py</b>, Mohamed Sami Cherif et Djamal Habet
           link: JFPC_2021_final/JFPC_2021_G3.pdf
         - title: Approche basée sur la Relaxation pour la Fouille de Motifs Fermés et Diversifiés
-          authors: Arnold Hien, Samir Loudni, Noureddine Aribi, Yahia Lebbah, Mohammed Laghzaoui, Abdelkader Ouali et Albrecht Zimmermann
+          authors: <b>Arnold Hien</b>, Samir Loudni, Noureddine Aribi, Yahia Lebbah, Mohammed Laghzaoui, Abdelkader Ouali et Albrecht Zimmermann
           link: JFPC_2021_final/JFPC_2021_G4.pdf
     - time: 16h40-17h10
       title: Pause-Poster
