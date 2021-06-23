@@ -10,8 +10,8 @@ published: true
 
 Durant cette édition des JFPC, quatre sessions seront consacrées aux présentations faites par de « jeunes chercheurs ».
 
-À l'issue, de la journée un prix sera remis par l'organisation afin de récompenser la présentation qui aura été jugée la plus pertinente par les participants de la conférence.
-Ce prix de 400 € permettra à l'heureux lauréat de se déplacer, avant les prochaines JFPC 2022, sur un évènement scientifique de son choix (conférence ou école d'été).
+À l'issue de la conférence, un prix sera remis par l'organisation afin de récompenser la présentation qui aura été jugée la plus pertinente par les participants de la conférence.
+Ce prix de 400 € permettra à l'heureux lauréat de se déplacer, dans un délai de deux ans, sur un évènement scientifique de son choix (conférence ou école d'été).
 
 #### Mode de scrutin
 Le prix du jeune chercheur sera attribué par un vote par élimination successive.<br/>
@@ -31,9 +31,9 @@ Le processus d'élimination se poursuit jusqu'à ce qu'il ne reste plus qu'un se
 
 #### Instructions de vote
 
-- Vous devez remplir ce formulaire en indiquant l'adresse utilisée pour l'inscription aux JFPC 2021.
+- Vous devez remplir le formulaire en indiquant l'adresse utilisée pour l'inscription aux JFPC 2021.
 - Dans un bulletin, les votes multiples pour un même article ne seront pas pris en compte.
-- La date limite pour le vote est le vendredi 24 juin à 16h45.
+- La date limite pour le vote est le jeudi 24 juin à 16h45.
 
 
 <a class="btn btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSeeOQuEbyIVT1dpxdZzQpe5Z0SE68uG5d0ntRY4KXHLUuHVBQ/viewform?usp=sf_link">VOTEZ ICI</a>

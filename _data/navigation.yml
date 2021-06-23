@@ -2,6 +2,10 @@
   url: "agenda/"
   side: left
 
+- title: "Prix Jeune Chercheur"
+  url: "prix/"
+  side: left
+
 - title: "Comité"
   url: "team/"
   side: left
@@ -13,7 +17,6 @@
 - title: "Précédentes éditions"
   url: "editions/"
   side: left
-
 
 - title: "Inscription"
   url: "inscription/"
@@ -30,4 +33,3 @@
 - title: "Soutiens"
   url: "sponsors/"
   side: right
-
