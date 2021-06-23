@@ -11,7 +11,7 @@ votes <- list(
     c("a", "b", "c", "d", "a"),
     c("d", "b", "a", "c", "b"),
     c("c", "b", "d", "a", "d"),
-    c("a", NA, "e", NA, "e")
+    c("a", NA, "e", "c", "e")
 )
 votes <- append(votes, votes)
 
@@ -30,7 +30,9 @@ GetCurrentVotes <- function(votes) {
         lvls <- unique(unlist(votes))
         ## Create Factor Vector with the current votes
         return(factor(sapply(votes, head, n = 1), levels = lvls))
-    }
+}
+
+GetApprovalVotes <- function(votes) as.factor(unlist(votes))
 
 GetRankings <- function(cvotes) sort(table(cvotes), decreasing = TRUE)
 
@@ -48,25 +50,47 @@ GetLoser <- function(rankings) tail(names(rankings), 1)
 BulkElimination <- function(rankings) {
     i <- 1
     n <- sum(rankings)
-    #print(n)
     while(i <= length(rankings)) {
         n <- n - rankings[i]
-        #print(n)
-        #print(rankings[i])
         if(rankings[i] > n) return(tail(names(rankings), -i))
         else i <- i + 1
     }
     return(character())
 }
 
-BreakTieElimination <- function(rankings) {
-    losers <- subset(names(rankings) , rankings == min(rankings))
-    return(sample(losers, size = 1))
+ApprovalElimination <- function(losers, votes) {
+    rankingsA <- GetRankings(GetApprovalVotes(votes))
+    rankingsA <- rankingsA[losers];
+    ## browser()
+    return(subset(names(rankingsA) , rankingsA == min(rankingsA)))
+}
+
+LogValues <- function(msg, values) {
+    cat(msg, " :\n", paste(values, collapse = "\n"), "\n", sep = "")
+}
+
+CandidatesElimination <- function(rankings, votes) {
+    ## losers <- character() ## FOR DEBUG
+    losers <- BulkElimination(rankings)
+    if(length(losers) == 0) {
+        losers <- subset(names(rankings) , rankings == min(rankings))
+        LogValues("ÉGALITÉ ENTRE PERDANTS", losers)
+        losers <- ApprovalElimination(losers, votes)
+        LogValues("ÉLIMINÉ PAR APPROBATION", losers)
+        if(length(losers) > 1) {
+            losers <- sample(losers, size = 1)
+            LogValues("PAR TIRAGE AU SORT", losers)
+        }
+    } else {
+        LogValues("ÉLIMINATION GROUPÉE DES PERDANTS", losers)
+    }
+    return(losers)
 }
 
 
 InstantRunoffVoting <- function(votes) {
     i <- 1
+    votes <- CleanVotes(votes)
     repeat {
         cvotes <- GetCurrentVotes(votes)
         rankings <- GetRankings(cvotes)
@@ -77,21 +101,14 @@ InstantRunoffVoting <- function(votes) {
         ## browser()
         if( HasWinner(rankings)) {
             winner <- names(rankings[1])
-            cat("\nLE GAGNANT EST ", winner, ".\n", sep = "")
+            LogValues("\nLE GAGNANT EST", winner)
             return(winner)
         } else if( HasLoser(rankings)) {
-            ## losers <- character()
-            losers <- BulkElimination(rankings)
-            if(length(losers) == 0) {
-                cat("ÉGALITÉ ENTRE PERDANTS !\n")
-                losers <- BreakTieElimination(rankings)
-            }
-           # browser()
-            cat("\nLE OU LES PERDANTS SONT :\n", paste(losers, collapse = "\n"), "\n", sep = "")
+            losers <- CandidatesElimination(rankings, votes)
+            ## browser()
             votes <- NextVotes(votes, losers)
         } else {
-            cat("ÉGALITÉ ENTRE GAGNANTS !\n")
-            cat(paste(names(rankings), collapse = "\n"))
+            LogValues("ÉGALITÉ ENTRE GAGNANTS", names(rankings))
             return(names(rankings));
         }
         i <- i + 1
