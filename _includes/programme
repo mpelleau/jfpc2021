@@ -43,7 +43,11 @@
                         {% if session.chair %}<session-chair>Animée par <session-chair-name>{{ session.chair }}</session-chair-name></session-chair>{% endif %}
                         {% if session.info %}<session-info>{{ session.info }}</session-info>{% endif %}
                         {%- if session.titre %}
+                            {%if session.url %}
+                        <session-talk-title><a href="{{ session.url }}">"{{ session.titre }}"</a></session-talk-title>
+                            {% else %}
                         <session-talk-title>"{{ session.titre }}"</session-talk-title>
+                            {% endif %}
                         {%- endif %}
                         {%- if session.talks %}
                         <dl class = "talks">
