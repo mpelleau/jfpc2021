@@ -281,7 +281,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-sm, .btn-xl {
-    color: #fff;
+    color: #fff !important;
     background-color: var(--secondary);
     border-color: var(--secondary);
     border-radius: 3px;
