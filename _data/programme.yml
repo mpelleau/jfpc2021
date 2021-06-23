@@ -8,7 +8,7 @@
       author: Thomas schiex
       id: invite1
       titre: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
-#      chair: Toto
+      chair: Philippe Vismara
       room: Zoom
     - time: 13h30-14h
       title: Café
@@ -56,7 +56,7 @@
       title: C
       type: Jeunes chercheurs
       room: Zoom
-      chair: Marie Pelleau
+      chair: Simon de Givry
       talks:
         - title: Utiliser la PPC pour générer des structures de benzénoïdes en chimie théorique
           authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et <b>Adrien Varet</b>
@@ -73,6 +73,8 @@
       notinform: true
     - time: 17h30-18h
       title: "Débats \"pré-apéro\""
+      titre: "Contraintes globales trop ou trop peu ?"
+      id: debat1
       room: Zoom
     - time: 18h-19h
       title: Apéro
@@ -90,6 +92,7 @@
       author: Claude-Guy Quimper (Université de Laval, Québec)
       id: invite2
       titre: "Ordonnancement sous contraintes : de la théorie à la pratique"
+      chair: Christian Bessière
       room: Zoom
     - time: 15h-15h15
       title: Pause
@@ -137,6 +140,8 @@
       notinform: true
     - time: 17h45-18h15
       title: "Débats \"pré-apéro\""
+      titre: "Comment présenter la PPS au grand public, aux entreprises, aux institutions ?"
+      id: debat2
       room: Zoom
     - time: 18h15-19h15
       title: Apéro

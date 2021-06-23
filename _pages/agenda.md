@@ -121,12 +121,12 @@ Le programme détaillé peut être téléchargé [au format `.ics`]({% include l
     </tr>
     <tr>
       <td class="hour">17:30</td>
-      <td rowspan="2" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td rowspan="2" class="debat"><a href="#debat1" name="Mardi 22 juin">Débats «&nbsp;pré-apéro&nbsp;»</a></td>
       <td class="hour">17:30</td>
     </tr>
     <tr>
       <td class="hour">17:45</td>
-      <td rowspan="2" class="debat">Débats «&nbsp;pré-apéro&nbsp;»</td>
+      <td rowspan="2" class="debat"><a href="#debat2" name="Mercredi 23 juin">Débats «&nbsp;pré-apéro&nbsp;»</a></td>
       <td rowspan="4" class="apero">Clôture des journées</td>
       <td class="hour">17:45</td>
     </tr>
