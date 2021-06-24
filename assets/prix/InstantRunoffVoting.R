@@ -1,20 +1,5 @@
 #!/usr/bin/Rscript
 
-votes <- list(
-    c("a", "b", "c", "d"),
-    c("d", "b", "a", "c"),
-    c("c", "b", "d", "a"),
-    c("b", "e")
-)
-
-votes <- list(
-    c("a", "b", "c", "d", "a"),
-    c("d", "b", "a", "c", "b"),
-    c("c", "b", "d", "a", "d"),
-    c("a", NA, "e", "c", "e")
-)
-votes <- append(votes, votes)
-
 
 CleanVotes <- function(votes) {
     CleanVote <- function(vote) {
@@ -113,4 +98,11 @@ InstantRunoffVoting <- function(votes) {
         }
         i <- i + 1
     }
+}
+
+
+VotingSystemJFPC <- function(csvfile) {
+    df <- read.csv(csvfile)
+    votes <- unname(as.list(as.data.frame(apply(df[,3:5], 1, as.vector))))
+    InstantRunoffVoting(votes)
 }

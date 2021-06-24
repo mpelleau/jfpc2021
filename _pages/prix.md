@@ -26,7 +26,7 @@ Le processus d'élimination se poursuit jusqu'à ce qu'il ne reste plus qu'un se
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Instant-runoff_voting)
 - [Votez Autrement - Présidentielles 2017](https://vote.imag.fr/)
-- [Code source du script R pour le dépouillement des votes]({% include link-asset asset="InstantRunoffVoting.R" %})
+- Système de votes pour les JFPC 2021 : [code source du script R]({% include link-asset asset="InstantRunoffVoting.R" %}) +  [code source des tests]({% include link-asset asset="TestInstantRunoffVoting.R" %}) +
 
 
 #### Instructions de vote
