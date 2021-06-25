@@ -13,6 +13,18 @@ Durant cette édition des JFPC, quatre sessions seront consacrées aux présenta
 À l'issue de la conférence, un prix sera remis par l'organisation afin de récompenser la présentation qui aura été jugée la plus pertinente par les participants de la conférence.
 Ce prix de 400 € permettra à l'heureux lauréat de se déplacer, dans un délai de deux ans, sur un évènement scientifique de son choix (conférence ou école d'été).
 
+<!-- #### Lauréat du prix jeune chercheur -->
+
+**Mathieu Vavrille est lauréat du prix Jeune Chercheur des JFPC 2021 après le vote d'une quarantaine de participants.**
+
+[Tirage de solutions par ajout de contraintes tables aléatoires]({% include link-asset asset="JFPC_2021_F4.pdf" %}) Par Mathieu Vavrille,  Charlotte Truchet, Charles Prud’homme.
+<br/>
+**Résumé.** Les solveurs de contraintes actuels mettent à disposition des utilisateurs des algorithmes efficaces pour traiter les problèmes de satisfaction et d’optimisation combinatoires.
+Ceux-ci sont inadaptées à de nouveaux usages, comme celui du tirage aléatoire de solutions.
+Nous proposons ici un algorithme pour tirer des solutions aléatoirement, se basant sur l’ajout de contraintes tables générées aléatoirement, sans modifier le modèle du problème.
+Nous avons implémenté cette méthode de résolution en utilisant un solveur de contraintes existant.
+Nos expériences montrent que cet algorithme est une amélioration par rapport à une stratégie de branchement aléatoire en terme de qualité de l’aléatoire du tirage.
+
 #### Mode de scrutin
 Le prix du jeune chercheur sera attribué par un vote par élimination successive.<br/>
 Dans ce mode de scrutin, on demande aux électeurs de choisir au plus 3 candidats et de les classer selon leur ordre de préférence.

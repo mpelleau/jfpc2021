@@ -104,5 +104,6 @@ InstantRunoffVoting <- function(votes) {
 VotingSystemJFPC <- function(csvfile) {
     df <- read.csv(csvfile)
     votes <- unname(as.list(as.data.frame(apply(df[,3:5], 1, as.vector))))
+    votes <- lapply(votes, substr, start = 1, stop = 3)
     InstantRunoffVoting(votes)
 }
