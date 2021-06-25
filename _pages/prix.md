@@ -41,11 +41,11 @@ Le processus d'élimination se poursuit jusqu'à ce qu'il ne reste plus qu'un se
 - Système de votes pour les JFPC 2021 : [code source du script R]({% include link-asset asset="InstantRunoffVoting.R" %}) +  [code source des tests]({% include link-asset asset="TestInstantRunoffVoting.R" %}) +
 
 
-#### Instructions de vote
+<!-- #### Instructions de vote -->
 
-- Vous devez remplir le formulaire en indiquant l'adresse utilisée pour l'inscription aux JFPC 2021.
-- Dans un bulletin, les votes multiples pour un même article ne seront pas pris en compte.
-- La date limite pour le vote est le jeudi 24 juin à 16h45.
+<!-- - Vous devez remplir le formulaire en indiquant l'adresse utilisée pour l'inscription aux JFPC 2021. -->
+<!-- - Dans un bulletin, les votes multiples pour un même article ne seront pas pris en compte. -->
+<!-- - La date limite pour le vote est le jeudi 24 juin à 16h45. -->
 
 
-<a class="btn btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSeeOQuEbyIVT1dpxdZzQpe5Z0SE68uG5d0ntRY4KXHLUuHVBQ/viewform?usp=sf_link">VOTEZ ICI</a>
+<!-- <a class="btn btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSeeOQuEbyIVT1dpxdZzQpe5Z0SE68uG5d0ntRY4KXHLUuHVBQ/viewform?usp=sf_link">VOTEZ ICI</a> -->
