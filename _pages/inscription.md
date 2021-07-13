@@ -11,8 +11,14 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 
 ## Inscription en ligne
 
+Les inscriptions sont désormais closes. 
+
+À l'année prochaine !
+
+{% comment %}
 Pour vous inscrire, veuillez remplir le formulaire suivant :
 {% include form %}
+{% endcomment %}
 
 <!--
 ## Tarifs (provisoires)
