@@ -20,7 +20,7 @@
 
 - name: AFPC
   img: afpc.png
-  website: http://afpc.greyc.fr/web/
+  website: https://www.afpc-asso.org/
   alt: Association Française pour la Programmation par Contraintes
 
 - name: ACP

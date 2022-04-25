@@ -111,7 +111,7 @@ Le programme détaillé peut être téléchargé [au format `.ics`]({% include l
     </tr>
     <tr>
       <td class="hour">17:10</td>
-      <td rowspan="3" class="ag">AG de l’AFPC<br><a href="/prix/" name="Prix Jeune Chercheur">Remise du prix jeune chercheur</a></td>
+      <td rowspan="3" class="ag">AG de l’AFPC<br><a href="{{ site.baseurl }}/prix/" name="Prix Jeune Chercheur">Remise du prix jeune chercheur</a></td>
       <td class="hour">17:10</td>
     </tr>
     <tr>
